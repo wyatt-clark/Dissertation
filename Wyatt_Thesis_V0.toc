@@ -1,0 +1,99 @@
+\select@language {english}
+\contentsline {chapter}{\tocchapter {Chapter}{}{List of Figures}}{xii}{Doc-Start}
+\contentsline {chapter}{\tocchapter {Chapter}{1}{Prediction and analysis of gene function}}{1}{chapter.1}
+\contentsline {section}{\tocsection {}{1}{Defining function}}{2}{section.1.1}
+\contentsline {section}{\tocsection {}{2}{Challenges in predicting function}}{4}{section.1.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Multi-functional proteins}}{4}{subsection.1.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Transfer of function by sequence similarity}}{7}{subsection.1.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Quality of non-experimental annotations in Swiss-Prot}}{10}{subsection.1.2.3}
+\contentsline {section}{\tocsection {}{3}{State of the art methods}}{12}{section.1.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Community-wide assessment of function prediction}}{13}{subsection.1.3.1}
+\contentsline {section}{\tocsection {}{4}{Analysis of function in evolutionary context}}{14}{section.1.4}
+\contentsline {section}{\tocsection {}{5}{Conclusion}}{14}{section.1.5}
+\contentsline {chapter}{\tocchapter {Chapter}{2}{A multi-output neural network for function prediction}}{17}{chapter.2}
+\contentsline {section}{\tocsection {}{1}{Methods}}{17}{section.2.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Problem formulation}}{17}{subsection.2.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Data sets}}{18}{subsection.2.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{Data representation}}{18}{subsection.2.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{Classification models}}{19}{subsection.2.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{Model selection and evaluation}}{20}{subsection.2.1.5}
+\contentsline {section}{\tocsection {}{2}{Results}}{21}{section.2.2}
+\contentsline {section}{\tocsection {}{3}{Discussion}}{23}{section.2.3}
+\contentsline {chapter}{\tocchapter {Chapter}{3}{Property Kernels based on Vector Quantization}}{26}{chapter.3}
+\contentsline {section}{\tocsection {}{1}{Problem formulation}}{28}{section.3.1}
+\contentsline {section}{\tocsection {}{2}{Methods}}{30}{section.3.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Count-based property kernels}}{31}{subsection.3.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Additive property kernels}}{32}{subsection.3.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Combined kernel function}}{32}{subsection.3.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{Computational complexity}}{32}{subsection.3.2.4}
+\contentsline {subsection}{\tocsubsection {}{2.5}{String kernel}}{32}{subsection.3.2.5}
+\contentsline {section}{\tocsection {}{3}{Mapping proteins into property vectors}}{33}{section.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Structure based properties}}{33}{subsection.3.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{Sequence based properties}}{34}{subsection.3.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{Tested values of window size and number of centroids}}{34}{subsection.3.3.3}
+\contentsline {section}{\tocsection {}{4}{Experiments and data}}{34}{section.3.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{Cross-validation}}{35}{subsection.3.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{Performance accuracy estimation}}{36}{subsection.3.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{Signal-to-noise ratio}}{36}{subsection.3.4.3}
+\contentsline {section}{\tocsection {}{5}{Results}}{37}{section.3.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Performance of individual properties}}{37}{subsection.3.5.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.1.1}{SCOP fold}}{37}{subsubsection.3.5.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.1.2}{Catalytic activity}}{37}{subsubsection.3.5.1.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.1.3}{Catalytic activity subclass}}{37}{subsubsection.3.5.1.3}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Combined kernel performance}}{40}{subsection.3.5.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.2.1}{SCOP fold}}{40}{subsubsection.3.5.2.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.2.2}{Catalytic activity}}{40}{subsubsection.3.5.2.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.2.3}{Catalytic activity subclass}}{40}{subsubsection.3.5.2.3}
+\contentsline {subsection}{\tocsubsection {}{5.3}{String kernel performance}}{40}{subsection.3.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{Optimal parameter values}}{41}{subsection.3.5.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.4.1}{SCOP fold}}{41}{subsubsection.3.5.4.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.4.2}{Catalytic activity}}{41}{subsubsection.3.5.4.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.4.3}{Catalytic activity subclass}}{42}{subsubsection.3.5.4.3}
+\contentsline {subsection}{\tocsubsection {}{5.5}{Comparing $\bf {AUC}$ and $\bf {SNR}$}}{42}{subsection.3.5.5}
+\contentsline {subsection}{\tocsubsection {}{5.6}{Reduced redundancy data set}}{42}{figure.caption.22}
+\contentsline {section}{\tocsection {}{6}{Discussion}}{44}{section.3.6}
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Information-theoretic evaluation of predicted ontological annotations}}{46}{chapter.4}
+\contentsline {section}{\tocsection {}{1}{Background}}{48}{section.4.1}
+\contentsline {section}{\tocsection {}{2}{Protein function prediction scenarios}}{50}{section.4.2}
+\contentsline {section}{\tocsection {}{3}{Methods}}{51}{section.4.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Calculating the joint probability of a graph}}{51}{subsection.4.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{Calculating the information content of a graph}}{54}{subsection.4.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{Comparing two annotation graphs}}{55}{subsection.4.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.4}{Measuring the quality of function prediction}}{57}{subsection.4.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.5}{Weighted metrics}}{58}{subsection.4.3.5}
+\contentsline {subsection}{\tocsubsection {}{3.6}{Semantic distance}}{59}{subsection.4.3.6}
+\contentsline {subsection}{\tocsubsection {}{3.7}{Precision and recall}}{59}{subsection.4.3.7}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.7.1}{Information-theoretic weighted formulation}}{60}{subsubsection.4.3.7.1}
+\contentsline {subsection}{\tocsubsection {}{3.8}{Supplementary evaluation metrics}}{61}{subsection.4.3.8}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.8.1}{Basic definitions}}{61}{subsubsection.4.3.8.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.8.2}{Information-theoretic metrics between pairs of vertices}}{62}{subsubsection.4.3.8.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.8.3}{Information-theoretic metrics between pairs of graphs}}{63}{subsubsection.4.3.8.3}
+\contentsline {subsection}{\tocsubsection {}{3.9}{Additional topological metrics}}{64}{subsection.4.3.9}
+\contentsline {section}{\tocsection {}{4}{Confusion matrix interpretation of $ru$ and $mi$}}{64}{section.4.4}
+\contentsline {section}{\tocsection {}{5}{Analysis of semantic distance}}{65}{section.4.5}
+\contentsline {section}{\tocsection {}{6}{Annotation models}}{67}{section.4.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{The Na\"ive model}}{68}{subsection.4.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{The BLAST model}}{68}{subsection.4.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{The GOtcha model}}{68}{subsection.4.6.3}
+\contentsline {section}{\tocsection {}{7}{Experiments and results}}{69}{section.4.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{Average information content of a protein}}{69}{subsection.4.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{Two-dimensional plots}}{70}{subsection.4.7.2}
+\contentsline {subsection}{\tocsubsection {}{7.3}{Comparisons of single statistics}}{73}{subsection.4.7.3}
+\contentsline {section}{\tocsection {}{8}{Discussion}}{77}{section.4.8}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Testing the ortholog conjecture with comparative functional genomic data }}{82}{chapter.5}
+\contentsline {section}{\tocsection {}{1}{Results}}{85}{section.5.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Functional similarity between orthologs and all paralogs}}{85}{subsection.5.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Functional similarity between orthologs and subtypes of paralogs}}{87}{subsection.5.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{Microarray-based measures of functional similarity}}{89}{subsection.5.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{Protein interaction-based measures of functional similarity}}{91}{subsection.5.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{Family-based analyses}}{92}{subsection.5.1.5}
+\contentsline {section}{\tocsection {}{2}{Discussion}}{94}{section.5.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{The evolution of gene function}}{95}{subsection.5.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Implications for protein function prediction}}{98}{subsection.5.2.2}
+\contentsline {section}{\tocsection {}{3}{Materials and Methods}}{100}{section.5.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Comparative genomics data}}{100}{subsection.5.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{Protein function data}}{101}{subsection.5.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{Calculation of similarity}}{102}{subsection.5.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.4}{Microarray data}}{103}{subsection.5.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.5}{Protein interaction data}}{105}{subsection.5.3.5}
+\contentsline {chapter}{\tocappendix {Appendix}{}{Bibliography}}{107}{appendix*.51}

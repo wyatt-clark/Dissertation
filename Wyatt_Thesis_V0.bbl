@@ -1,0 +1,1172 @@
+\begin{thebibliography}{181}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Addou et~al.(2009)Addou, Rentzsch, Lee, and Orengo]{Addou2009}
+S.~Addou, R.~Rentzsch, D.~Lee, and C.~A. Orengo.
+\newblock {Domain-based and family-specific sequence identity thresholds
+  increase the levels of reliable protein function transfer}.
+\newblock \emph{Journal of Molecular Biology}, 387\penalty0 (2):\penalty0
+  416--430, 2009.
+
+\bibitem[Alexeyenko et~al.(2006)Alexeyenko, Lindberg, Perez-Bercoff, and
+  Sonnhammer]{Alexeyenko2006}
+A.~Alexeyenko, J.~Lindberg, R.~Perez-Bercoff, and E.~L.~L. Sonnhammer.
+\newblock {Overview and comparison of ortholog databases}.
+\newblock \emph{Drug Discovery Today: Technologies}, 3\penalty0 (2):\penalty0
+  137--143, 2006.
+
+\bibitem[Aloy et~al.(2003)Aloy, Ceulemans, Stark, and Russell]{Aloy2003}
+P.~Aloy, H.~Ceulemans, A.~Stark, and R.~B. Russell.
+\newblock {The relationship between sequence and interaction divergence in
+  proteins.}
+\newblock \emph{Journal of Molecular Biology}, 332\penalty0 (5):\penalty0
+  989--998, 2003.
+
+\bibitem[Altenhoff et~al.(2012)Altenhoff, Studer, Robinson-Rechavi, and
+  Dessimoz]{Altenhoff2012}
+A.~M. Altenhoff, R.~A. Studer, M.~Robinson-Rechavi, and C.~Dessimoz.
+\newblock {Resolving the Ortholog Conjecture: Orthologs Tend to Be Weakly, but
+  Significantly, More Similar in Function than Paralogs}.
+\newblock \emph{PLoS Computational Biology}, 8\penalty0 (5):\penalty0 e1002514,
+  2012.
+
+\bibitem[Alterovitz et~al.(2010)Alterovitz, Xiang, Hill, Lomax, Liu,
+  Cherkassky, Dreyfuss, Mungall, Harris, Dolan, et~al.]{alterovitz2010}
+G.~Alterovitz, M.~Xiang, D.~P. Hill, J.~Lomax, J.~Liu, M.~Cherkassky,
+  J.~Dreyfuss, C.~Mungall, M.~A. Harris, M.~E. Dolan, et~al.
+\newblock Ontology engineering.
+\newblock \emph{Nature Biotechnology}, 28\penalty0 (2):\penalty0 128--130,
+  2010.
+
+\bibitem[Altschul et~al.(1997)]{Altschul1997}
+S.~F. Altschul et~al.
+\newblock Gapped {BLAST} and {PSI-BLAST}: a new generation of protein database
+  search programs.
+\newblock \emph{Nucleic Acids Research}, 25\penalty0 (17):\penalty0 3389--3402,
+  1997.
+
+\bibitem[Amundson and Lauder(1994)]{amundson1994function}
+R.~Amundson and G.~V. Lauder.
+\newblock Function without purpose.
+\newblock \emph{Biology and Philosophy}, 9\penalty0 (4):\penalty0 443--469,
+  1994.
+
+\bibitem[Ashburner et~al.(2000)]{Ashburner2000}
+M.~Ashburner et~al.
+\newblock {Gene ontology: tool for the unification of biology.}
+\newblock \emph{Nature Genetics}, 25\penalty0 (1):\penalty0 25--29, 2000.
+
+\bibitem[Bairoch et~al.(2005)Bairoch, Apweiler, Wu, Barker, Boeckmann, Ferro,
+  Gasteiger, Huang, Lopez, Magrane, et~al.]{bairoch2005universal}
+A.~Bairoch, R.~Apweiler, C.~H. Wu, W.~C. Barker, B.~Boeckmann, S.~Ferro,
+  E.~Gasteiger, H.~Huang, R.~Lopez, M.~Magrane, et~al.
+\newblock {The universal protein resource (UniProt)}.
+\newblock \emph{Nucleic Acids Research}, 33\penalty0 (1):\penalty0 D154--D159,
+  2005.
+
+\bibitem[Bandyopadhyay et~al.(2006)Bandyopadhyay, Huan, Liu, Prins, Snoeyink,
+  Wang, and Tropsha]{Bandyopadhyay2006b}
+D.~Bandyopadhyay, J.~Huan, J.~Liu, J.~Prins, J.~Snoeyink, W.~Wang, and
+  A.~Tropsha.
+\newblock A structure-based function inference using protein family-specific
+  fingerprints.
+\newblock \emph{Protein Science}, 15\penalty0 (6):\penalty0 1537--1543, 2006.
+
+\bibitem[Bartlett et~al.(2003)Bartlett, Todd, and Thornton]{Bartlett2003}
+G.~J. Bartlett, A.~Todd, and J.~Thornton.
+\newblock Inferring protein function from structure.
+\newblock In P.~E. Bourne and H.~Weissig, editors, \emph{Structural
+  Bioinformatics}, volume~44, chapter~19, pages 387--407. Wiley-Liss Inc.,
+  2003.
+
+\bibitem[Barutcuoglu et~al.(2006)Barutcuoglu, Schapire, and
+  Troyanskaya]{Barutcuoglu2006}
+Z.~Barutcuoglu, R.~E. Schapire, and O.~G. Troyanskaya.
+\newblock Hierarchical multi-label prediction of gene function.
+\newblock \emph{Bioinformatics}, 22\penalty0 (7):\penalty0 830--836, 2006.
+
+\bibitem[Ben-Hur and Noble(2005)]{BenHur2005}
+A.~Ben-Hur and W.~S. Noble.
+\newblock {Kernel methods for predicting protein-protein interactions.}
+\newblock \emph{Bioinformatics}, 21\penalty0 (1):\penalty0 i38--i46, 2005.
+
+\bibitem[Bodenreider(2004)]{Bodenreider2004}
+O.~Bodenreider.
+\newblock {The Unified Medical Language System (UMLS): integrating biomedical
+  terminology}.
+\newblock \emph{Nucleic Acids Research}, 32\penalty0 (Database issue):\penalty0
+  D267--270, 2004.
+
+\bibitem[Borgwardt et~al.(2005)Borgwardt, Ong, Sch{\"o}nauer, Vishwanathan,
+  Smola, and Kriegel]{borgwardt2005protein}
+K.~M. Borgwardt, C.~S. Ong, S.~Sch{\"o}nauer, S.~Vishwanathan, A.~J. Smola, and
+  H.-P. Kriegel.
+\newblock Protein function prediction via graph kernels.
+\newblock \emph{Bioinformatics}, 21\penalty0 (suppl 1):\penalty0 i47--i56,
+  2005.
+
+\bibitem[Brenner(1999)]{Brenner1999}
+S.~E. Brenner.
+\newblock Errors in genome annotation.
+\newblock \emph{Trends in Genetics}, 15\penalty0 (4):\penalty0 132--133, 1999.
+
+\bibitem[Bridges(1936)]{Bridges1936}
+C.~Bridges.
+\newblock {The Bar "gene" a duplication}.
+\newblock \emph{Science}, 83:\penalty0 210--211, 1936.
+
+\bibitem[Bridges(1935)]{Bridges1935}
+C.~B. Bridges.
+\newblock {Salivary chromosome maps with a key to the banding of the
+  chromosomes of Drosophila melanogaster}.
+\newblock \emph{Journal of Heredity}, 26\penalty0 (2):\penalty0 60--64, 1935.
+
+\bibitem[Brown and Sjolander(2006)]{Brown2006}
+D.~Brown and K.~Sjolander.
+\newblock Functional classification using phylogenomic inference.
+\newblock \emph{PLoS Computational Biology}, 2\penalty0 (6):\penalty0 e77,
+  2006.
+
+\bibitem[Chen and Jeong(2000)]{Chen2000}
+R.~D. Chen and S.~S. Jeong.
+\newblock {Functional prediction: Identification of protein orthologs and
+  paralogs}.
+\newblock \emph{Protein Science}, 9\penalty0 (12):\penalty0 2344--2353, 2000.
+
+\bibitem[Clark and Radivojac(2011)]{Clark2011}
+W.~T. Clark and P.~Radivojac.
+\newblock Analysis of protein function and its prediction from amino acid
+  sequence.
+\newblock \emph{Proteins, Structure, Function and Bioinformatics}, 79\penalty0
+  (7):\penalty0 2086--2096, 2011.
+
+\bibitem[Costello et~al.(2009)Costello, Dalkilic, Beason, Gehlhausen,
+  Patwardhan, Middha, Eads, Andrews, et~al.]{costello2009gene}
+J.~C. Costello, M.~M. Dalkilic, S.~M. Beason, J.~R. Gehlhausen, R.~Patwardhan,
+  S.~Middha, B.~D. Eads, J.~R. Andrews, et~al.
+\newblock Gene networks in drosophila melanogaster: integrating experimental
+  data to predict gene function.
+\newblock \emph{Genome Biology}, 10\penalty0 (9):\penalty0 R97, 2009.
+
+\bibitem[Cozzetto and Jones(2013)]{cozzetto2013contribution}
+D.~Cozzetto and D.~T. Jones.
+\newblock The contribution of intrinsic disorder prediction to the elucidation
+  of protein function.
+\newblock \emph{Current Opinion in Structural Biology}, 2013.
+
+\bibitem[Crowley and Ubbink(2003)]{Crowley2003}
+P.~B. Crowley and M.~Ubbink.
+\newblock {Close encounters of the transient kind: protein interactions in the
+  photosynthetic redox chain investigated by NMR spectroscopy.}
+\newblock \emph{Accounts of Chemical Research}, 36\penalty0 (10):\penalty0
+  723--730, 2003.
+
+\bibitem[Dahdul et~al.(2012)Dahdul, Balhoff, Blackburn, Diehl, Haendel, Hall,
+  Lapp, Lundberg, Mungall, Ringwald, et~al.]{dahdul2012unified}
+W.~M. Dahdul, J.~P. Balhoff, D.~C. Blackburn, A.~D. Diehl, M.~A. Haendel, B.~K.
+  Hall, H.~Lapp, J.~G. Lundberg, C.~J. Mungall, M.~Ringwald, et~al.
+\newblock A unified anatomy ontology of the vertebrate skeletal system.
+\newblock \emph{PloS One}, 7\penalty0 (12):\penalty0 e51070, 2012.
+
+\bibitem[Dalkilic et~al.(2008)Dalkilic, Costello, Clark, and
+  Radivojac]{Dalkilic2008}
+M.~M. Dalkilic, J.~C. Costello, W.~T. Clark, and P.~Radivojac.
+\newblock From protein-disease associations to disease informatics.
+\newblock \emph{Fronteirs in Bioscience}, 13:\penalty0 3391--3407, 2008.
+
+\bibitem[Datta et~al.(2009)Datta, Meacham, Samad, Neyer, and
+  Sj\"{o}lander]{Datta2009}
+R.~S. Datta, C.~Meacham, B.~Samad, C.~Neyer, and K.~Sj\"{o}lander.
+\newblock {Berkeley PHOG: PhyloFacts orthology group prediction web server}.
+\newblock \emph{Nucleic Acids Research}, 37\penalty0 (suppl 2):\penalty0
+  W84--W89, 2009.
+
+\bibitem[Dayhoff et~al.(1978)Dayhoff, Schwartz, and Orcutt]{Dayhoff1978}
+M.~O. Dayhoff, R.~M. Schwartz, and B.~C. Orcutt.
+\newblock {A model of evolutionary change in proteins}.
+\newblock \emph{Atlas of Protein Sequence and Structure}, 5:\penalty0 345--352,
+  1978.
+
+\bibitem[{De Bie} et~al.(2007){De Bie}, Tranchevent, {Van Oeffelen}, and
+  Moreau]{DeBie2007}
+T.~{De Bie}, L.-C.~T. Tranchevent, L.~{Van Oeffelen}, and Y.~Moreau.
+\newblock {Kernel-based data fusion for gene prioritization}.
+\newblock \emph{Bioinformatics}, 23\penalty0 (13):\penalty0 i125--i132, 2007.
+
+\bibitem[Deane et~al.(2002)Deane, Salwin, Xenarios, and Eisenberg]{Deane2002}
+C.~M. Deane, L.~Salwin, I.~Xenarios, and D.~Eisenberg.
+\newblock {Protein Interactions}.
+\newblock \emph{Molecular Cellular Proteomics}, 6\penalty0 (1):\penalty0
+  349--356, 2002.
+
+\bibitem[Deng et~al.(2003)Deng, Zhang, Mehta, Chen, and Sun]{Deng2003}
+M.~Deng, K.~Zhang, S.~Mehta, T.~Chen, and F.~Sun.
+\newblock Prediction of protein function using protein-protein interaction
+  data.
+\newblock \emph{Journal of Computational Biology}, 10\penalty0 (6):\penalty0
+  947--960, 2003.
+
+\bibitem[{Des Marais} and Rausher(2008)]{DesMarais2008}
+D.~L. {Des Marais} and M.~D. Rausher.
+\newblock {Escape from adaptive conflict after duplication in an anthocyanin
+  pathway gene}.
+\newblock \emph{Nature}, 454:\penalty0 762--765, 2008.
+
+\bibitem[Devos and Valencia(2000)]{Devos2000}
+D.~Devos and A.~Valencia.
+\newblock Practical limits of function prediction.
+\newblock \emph{Proteins}, 41\penalty0 (1):\penalty0 98--107, 2000.
+
+\bibitem[Deza and Deza(2013)]{deza2013}
+M.~M. Deza and E.~Deza.
+\newblock \emph{Encyclopedia of Distances}.
+\newblock Springer, 2 edition, 2013.
+
+\bibitem[Dill(1999)]{Dill1999}
+K.~A. Dill.
+\newblock Polymer principles and protein folding.
+\newblock \emph{Protein Science}, 8\penalty0 (6):\penalty0 1166--1180, 1999.
+
+\bibitem[Dolinski and Botstein(2007)]{Dolinski2007}
+K.~Dolinski and D.~Botstein.
+\newblock {Orthology and functional conservation in eukaryotes}.
+\newblock \emph{Annual Review of Genetics}, 41:\penalty0 465--507, 2007.
+
+\bibitem[Doolittle(1986)]{Doolittle1986}
+R.~F. Doolittle.
+\newblock \emph{Of URFS and ORFS: A Primer on How to Analyze Derived Amino Acid
+  Sequences}.
+\newblock University Science Books, 1986.
+
+\bibitem[Dunker et~al.(2002)Dunker, Brown, Lawson, Iakoucheva, and
+  Obradovic]{Dunker2002}
+A.~K. Dunker, C.~J. Brown, J.~D. Lawson, L.~M. Iakoucheva, and Z.~Obradovic.
+\newblock Intrinsic disorder and protein function.
+\newblock \emph{Biochemistry}, 41\penalty0 (21):\penalty0 6573--6582, 2002.
+
+\bibitem[Dyson and Wright(2005)]{Dyson2005a}
+H.~J. Dyson and P.~E. Wright.
+\newblock Intrinsically unstructured proteins and their functions.
+\newblock \emph{Nature Reviews Molecular Cell Biology}, 6\penalty0
+  (3):\penalty0 197--208, 2005.
+
+\bibitem[Eisen(1998)]{Eisen1998}
+J.~A. Eisen.
+\newblock Phylogenomics: Improving functional predictions for uncharacterized
+  genes by evolutionary analysis.
+\newblock \emph{Genome Research}, 8:\penalty0 163--167, 1998.
+
+\bibitem[Enault et~al.(2005)Enault, Suhre, and Claverie]{enault2005phydbac}
+F.~Enault, K.~Suhre, and J.-M. Claverie.
+\newblock {Phydbac ``Gene Function Predictor": a gene annotation tool based on
+  genomic context analusis}.
+\newblock \emph{BMC Bioinformatics}, 6\penalty0 (257), 2005.
+
+\bibitem[Engelhardt et~al.(2005)Engelhardt, Jordan, Muratore, and
+  Brenner]{Engelhardt2005}
+B.~E. Engelhardt, M.~I. Jordan, K.~E. Muratore, and S.~E. Brenner.
+\newblock {Protein molecular function prediction by Bayesian phylogenomics}.
+\newblock \emph{PLoS Computational Biology}, 1\penalty0 (5):\penalty0 e45,
+  2005.
+
+\bibitem[Fields and Song(1989)]{Fields1989}
+S.~Fields and O.~Song.
+\newblock {A novel genetic system to detect protein-protein interactions.}
+\newblock \emph{Nature}, 340\penalty0 (6230):\penalty0 245--246, 1989.
+
+\bibitem[Fitch(1970)]{Fitch1970}
+W.~M. Fitch.
+\newblock {Distinguishing homologous from analogous proteins}.
+\newblock \emph{Systematic Zoology}, 19\penalty0 (2):\penalty0 99--113, 1970.
+
+\bibitem[Fitch(2000)]{Fitch2000}
+W.~M. Fitch.
+\newblock {Homology: a personal view on some of the problems}.
+\newblock \emph{Trends in Genetics}, 16\penalty0 (5):\penalty0 227--231, 2000.
+
+\bibitem[Friedberg(2006)]{Friedberg2006}
+I.~Friedberg.
+\newblock Automated protein function prediction--the genomic challenge.
+\newblock \emph{Briefings in Bioinformatics}, 7\penalty0 (3):\penalty0
+  225--242, 2006.
+
+\bibitem[Friedberg et~al.(2006)Friedberg, Jambon, and Godzik]{Friedberg2006c}
+I.~Friedberg, M.~Jambon, and A.~Godzik.
+\newblock New avenues in protein function prediction.
+\newblock \emph{Protein Science}, 15\penalty0 (6):\penalty0 1527--1529, 2006.
+
+\bibitem[Gabaldon(2008)]{Gabaldon2008}
+T.~Gabaldon.
+\newblock {Large-scale assignment of orthology: back to phylogenetics?}
+\newblock \emph{Genome Biology}, 9\penalty0 (10):\penalty0 235, 2008.
+
+\bibitem[Gabaldon et~al.(2009)Gabaldon, Dessimoz, Huxley-Jones, Vilella,
+  Sonnhammer, and Lewis]{Gabaldon2009}
+T.~Gabaldon, C.~Dessimoz, J.~Huxley-Jones, A.~J. Vilella, E.~L.~L. Sonnhammer,
+  and S.~Lewis.
+\newblock {Joining forces in the quest for orthologs}.
+\newblock \emph{Genome Biology}, 10\penalty0 (9):\penalty0 403, 2009.
+
+\bibitem[Gaudet et~al.(2011)Gaudet, Livstone, Lewis, and
+  Thomas]{gaudet2011phylogenetic}
+P.~Gaudet, M.~S. Livstone, S.~E. Lewis, and P.~D. Thomas.
+\newblock Phylogenetic-based propagation of functional annotations within the
+  gene ontology consortium.
+\newblock \emph{Briefings in Bioinformatics}, 12\penalty0 (5):\penalty0
+  449--462, 2011.
+
+\bibitem[Gersho and Gray(1992)]{gersho1992vector}
+A.~Gersho and R.~M. Gray.
+\newblock \emph{Vector quantization and signal compression}, volume 159 of
+  \emph{The Kluwer International Series in Engineering and Computer Science}.
+\newblock Kluwer Academic Publishers, 1992.
+
+\bibitem[Glazko et~al.(2005)]{Glazko2005}
+G.~Glazko et~al.
+\newblock The choice of optimal distance measure in genome-wide datasets.
+\newblock \emph{Bioinformatics}, 21\penalty0 (Suppl 3):\penalty0 iii3--iii11,
+  2005.
+
+\bibitem[Goldman and Yang(1994)]{Goldman1994}
+N.~Goldman and Z.~H. Yang.
+\newblock {Codon-based model of nucleotide substitution for protein-coding DNA
+  sequences}.
+\newblock \emph{Molecular Biology and Evolution}, 11\penalty0 (5):\penalty0
+  725--736, 1994.
+
+\bibitem[Goodman et~al.(1975)Goodman, Moore, and Matsuda]{Goodman1975}
+M.~Goodman, G.~W. Moore, and G.~Matsuda.
+\newblock {Darwinian evolution in genealogy of hemoglobin}.
+\newblock \emph{Nature}, 253\penalty0 (5493):\penalty0 603--608, 1975.
+
+\bibitem[Guzzi et~al.(2012)]{Guzzi2012}
+P.~H. Guzzi et~al.
+\newblock Semantic similarity analysis of protein data: assessment with
+  biological features and issues.
+\newblock \emph{Briefings in Bioinformatics}, 13\penalty0 (5):\penalty0
+  569--585, 2012.
+
+\bibitem[Hahn(2009)]{Hahn2009b}
+M.~W. Hahn.
+\newblock Distinguishing among evolutionary models for the maintenance of gene
+  duplicates.
+\newblock \emph{Journal of Heredity}, 100:\penalty0 605--617, 2009.
+
+\bibitem[Hamp et~al.(2013)Hamp, Kassner, Seemayer, Vicedo, Schaefer, Achten,
+  Auer, Boehm, Braun, Hecht, et~al.]{hamp2013homology}
+T.~Hamp, R.~Kassner, S.~Seemayer, E.~Vicedo, C.~Schaefer, D.~Achten, F.~Auer,
+  A.~Boehm, T.~Braun, M.~Hecht, et~al.
+\newblock Homology-based inference sets the bar high for protein function
+  prediction.
+\newblock \emph{BMC Bioinformatics}, 14\penalty0 (Suppl 3):\penalty0 S7, 2013.
+
+\bibitem[Han and Hahn(2009)]{Hahn2009a}
+M.~V. Han and M.~W. Hahn.
+\newblock Identifying parent-daughter relationships among duplicated genes.
+\newblock \emph{Pacific Symposium on Biocomputing}, 14:\penalty0 114--125,
+  2009.
+
+\bibitem[Han et~al.(2009)Han, Demuth, McGrath, Casola, and Hahn]{Hahn2009}
+M.~V. Han, J.~P. Demuth, C.~L. McGrath, C.~Casola, and M.~W. Hahn.
+\newblock {Adaptive evolution of young duplicated genes in mammals}.
+\newblock \emph{Genome Research}, 19:\penalty0 859--867, 2009.
+
+\bibitem[Hart et~al.(2006)Hart, Ramani, and Marcotte]{Hart2006}
+G.~T. Hart, A.~K. Ramani, and E.~M. Marcotte.
+\newblock {How complete are current yeast and human protein-interaction
+  networks?}
+\newblock \emph{Genome Biology}, 7\penalty0 (11):\penalty0 120, 2006.
+
+\bibitem[Haussler(1999)]{Haussler1999}
+D.~Haussler.
+\newblock {Convolution kernels on discrete structures}.
+\newblock Technical Report~1, University of California at Santa Cruz, 1999.
+
+\bibitem[Hawkins et~al.(2006)Hawkins, Luban, and Kihara]{Hawkins2006}
+T.~Hawkins, S.~Luban, and D.~Kihara.
+\newblock {Enhanced automated function prediction using distantly related
+  sequences and contextual association by PFP}.
+\newblock \emph{Protein Science}, 15\penalty0 (6):\penalty0 1550--1556, 2006.
+
+\bibitem[Henikoff and Henikoff(1992)]{Henikoff1992}
+S.~Henikoff and J.~G. Henikoff.
+\newblock {Amino acid substitution matrices from protein blocks.}
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 89\penalty0 (22):\penalty0 10915--10919, 1992.
+
+\bibitem[Hermann et~al.(2007)Hermann, Marti-Arbona, Fedorov, Fedorov, Almo,
+  Shoichet, and Raushel]{Hermann2007}
+J.~C. Hermann, R.~Marti-Arbona, A.~A. Fedorov, E.~Fedorov, S.~C. Almo, B.~K.
+  Shoichet, and F.~M. Raushel.
+\newblock Structure-based activity prediction for an enzyme of unknown
+  function.
+\newblock \emph{Nature}, 448\penalty0 (7155):\penalty0 775--779, 2007.
+
+\bibitem[Hermjakob et~al.(2004)Hermjakob, Montecchi-Palazzi, Lewington, Mudali,
+  Kerrien, Orchard, Vingron, Roechert, Roepstorff, Valencia, Margalit,
+  Armstrong, Bairoch, Cesareni, Sherman, and Apweiler]{Hermjakob2004}
+H.~Hermjakob, L.~Montecchi-Palazzi, C.~Lewington, S.~Mudali, S.~Kerrien,
+  S.~Orchard, M.~Vingron, B.~Roechert, P.~Roepstorff, A.~Valencia, H.~Margalit,
+  J.~Armstrong, A.~Bairoch, G.~Cesareni, D.~Sherman, and R.~Apweiler.
+\newblock {IntAct: an open source molecular interaction database}.
+\newblock \emph{Nucleic Acids Research}, 32\penalty0 (Database issue):\penalty0
+  D452--D455, 2004.
+
+\bibitem[Hulsen et~al.(2006)Hulsen, Huynen, de~Vlieg, and Groenen]{Hulsen2006}
+T.~Hulsen, M.~A. Huynen, J.~de~Vlieg, and P.~M.~A. Groenen.
+\newblock {Benchmarking ortholog identification methods using functional
+  genomics data}.
+\newblock \emph{Genome Biology}, 7\penalty0 (4), 2006.
+
+\bibitem[Huminiecki and Wolfe(2004)]{Huminiecki2004}
+L.~Huminiecki and K.~H. Wolfe.
+\newblock {Divergence of spatial gene expression profiles following
+  species-specific gene duplications in human and mouse}.
+\newblock \emph{Genome Research}, 14\penalty0 (10a):\penalty0 1870--1879, 2004.
+
+\bibitem[Huttenhower et~al.(2006)Huttenhower, Hibbs, Myers, and
+  Troyanskaya]{huttenhower2006scalable}
+C.~Huttenhower, M.~Hibbs, C.~Myers, and O.~G. Troyanskaya.
+\newblock A scalable method for integration and functional analysis of multiple
+  microarray datasets.
+\newblock \emph{Bioinformatics}, 22\penalty0 (23):\penalty0 2890--2897, 2006.
+
+\bibitem[Izarzugaza et~al.(2007)Izarzugaza, Grana, Tress, Valencia, and
+  Clarke]{Izarzugaza2007}
+J.~M. Izarzugaza, O.~Grana, M.~L. Tress, A.~Valencia, and N.~D. Clarke.
+\newblock Assessment of intramolecular contact predictions for casp7.
+\newblock \emph{Proteins}, 69 Suppl 8:\penalty0 152--158, 2007.
+
+\bibitem[Jaakkola et~al.(1999)Jaakkola, Diekhans, and
+  Haussler]{jaakkola1999using}
+T.~Jaakkola, M.~Diekhans, and D.~Haussler.
+\newblock Using the fisher kernel method to detect remote protein homologies.
+\newblock In \emph{Proceedings of the Seventh International Conference on
+  Intelligent Systems for Molecular Biology}, volume 149, page 158, 1999.
+
+\bibitem[Jaakkola et~al.(2000)Jaakkola, Diekhans, and
+  Haussler]{jaakkola2000discriminative}
+T.~Jaakkola, M.~Diekhans, and D.~Haussler.
+\newblock A discriminative framework for detecting remote protein homologies.
+\newblock \emph{Journal of Computational Biology}, 7\penalty0 (1-2):\penalty0
+  95--114, 2000.
+
+\bibitem[Jaccard(1901)]{jaccard1901}
+P.~Jaccard.
+\newblock {{\'E}tude comparative de la distribution florale dans une portion
+  des Alpes et des Jura}.
+\newblock \emph{{Bulletin de la Soci{\'e}t{\'e} Vaudoise des Sciences
+  Naturelles}}, 37:\penalty0 574--579, 1901.
+
+\bibitem[Jeffery(1999)]{Jeffery1999}
+C.~J. Jeffery.
+\newblock Moonlighting proteins.
+\newblock \emph{Trends in Biochemical Sciences}, 24\penalty0 (1):\penalty0
+  8--11, 1999.
+
+\bibitem[Jeffery(2004)]{Jeffery2004}
+C.~J. Jeffery.
+\newblock Molecular mechanisms for multitasking: recent crystal structures of
+  moonlighting proteins.
+\newblock \emph{Current Opinions in Structural Biology}, 14\penalty0
+  (6):\penalty0 663--668, 2004.
+
+\bibitem[Jeffery(2009)]{Jeffery2009}
+C.~J. Jeffery.
+\newblock Moonlighting proteins--an update.
+\newblock \emph{Molecular Biosystems}, 5\penalty0 (4):\penalty0 345--350, 2009.
+
+\bibitem[Jensen et~al.(2002)Jensen, Gupta, Blom, Devos, Tamames, Kesmir,
+  Nielsen, St{\ae}rfeldt, Rapacki, Workman, et~al.]{Jensen2002}
+L.~J. Jensen, R.~Gupta, N.~Blom, D.~Devos, J.~Tamames, C.~Kesmir, H.~Nielsen,
+  H.~H. St{\ae}rfeldt, K.~Rapacki, C.~Workman, et~al.
+\newblock Prediction of human protein function from post-translational
+  modifications and localization features.
+\newblock \emph{Journal of Molecular Biology}, 319\penalty0 (5):\penalty0
+  1257--1266, 2002.
+
+\bibitem[Jensen et~al.(2003)Jensen, Gupta, Staerfeldt, and Brunak]{Jensen2003}
+L.~J. Jensen, R.~Gupta, H.~H. Staerfeldt, and S.~Brunak.
+\newblock Prediction of human protein function according to gene ontology
+  categories.
+\newblock \emph{Bioinformatics}, 19\penalty0 (5):\penalty0 635--642, 2003.
+
+\bibitem[Jiang and Conrath(1997)]{Jiang1997}
+J.~J. Jiang and D.~W. Conrath.
+\newblock Semantic similarity based on corpus statistics and lexical taxonomy.
+\newblock In \emph{International Conference on Research in Computational
+  Linguistics}, pages 19--33, 1997.
+
+\bibitem[Jones et~al.(2008)Jones, Schwerdt, Bretag, Baumann, and
+  Brown]{Jones2008a}
+C.~E. Jones, J.~Schwerdt, T.~A. Bretag, U.~Baumann, and A.~L. Brown.
+\newblock Gosling: a rule-based protein annotator using blast and go.
+\newblock \emph{Bioinformatics}, 24\penalty0 (22):\penalty0 2628--2629, 2008.
+
+\bibitem[Kabsch and Sander(1983)]{Kabsch1983}
+W.~Kabsch and C.~Sander.
+\newblock Dictionary of protein secondary structure: pattern recognition of
+  hydrogen-bonded and geometrical features.
+\newblock \emph{Biopolymers}, 22\penalty0 (12):\penalty0 2577--2637, 1983.
+
+\bibitem[Kann(2007)]{Kann2007}
+M.~G. Kann.
+\newblock Protein interactions and disease: computational approaches to uncover
+  the etiology of diseases.
+\newblock \emph{Briefings in Bioinformatics}, 2007.
+
+\bibitem[Kimura(1981)]{Kimura1981}
+M.~Kimura.
+\newblock {Was globin evolution very rapid in its early stages: a dubious case
+  against the rate-constancy hypothesis}.
+\newblock \emph{Journal of Molecular Evolution}, 17\penalty0 (2):\penalty0
+  110--113, 1981.
+
+\bibitem[Koller and Friedman(2009)]{Koller2009}
+D.~Koller and N.~Friedman.
+\newblock \emph{Probabilistic Graphical Models}.
+\newblock The MIT Press, Cambridge, Massachusetts, 2009.
+
+\bibitem[Kondor and Lafferty(2002)]{kondor2002diffusion}
+R.~I. Kondor and J.~Lafferty.
+\newblock Diffusion kernels on graphs and other discrete input spaces.
+\newblock In \emph{Machine Learning International Workshop and Conference},
+  pages 315--322, 2002.
+
+\bibitem[Koonin(2005)]{Koonin2005}
+E.~V. Koonin.
+\newblock Orthologs, paralogs, and evolutionary genomics.
+\newblock \emph{Annual Review of Genetics}, 39:\penalty0 309--338, 2005.
+
+\bibitem[Kourmpetis et~al.(2010)Kourmpetis, van Dijk, Bink, van Ham, and
+  Ter~Braak]{kourmpetis2010bayesian}
+Y.~A. Kourmpetis, A.~D. van Dijk, M.~C. Bink, R.~C. van Ham, and C.~J.
+  Ter~Braak.
+\newblock {Bayesian Markov Random Field analysis for protein function
+  prediction based on network data}.
+\newblock \emph{PloS One}, 5\penalty0 (2):\penalty0 e9293, 2010.
+
+\bibitem[Kourmpetis et~al.(2013)Kourmpetis, van Dijk, and ter
+  Braak]{kourmpetis2013gene}
+Y.~A. Kourmpetis, A.~D. van Dijk, and C.~J. ter Braak.
+\newblock Gene ontology consistent protein function prediction: the falcon
+  algorithm applied to six eukaryotic genomes.
+\newblock \emph{Algorithms for Molecular Biology}, 8\penalty0 (1):\penalty0 10,
+  2013.
+
+\bibitem[Kuang et~al.(2004)Kuang, Ie, Wang, Wang, Siddiqi, Freund, and
+  Leslie]{kuang2004profile}
+R.~Kuang, E.~Ie, K.~Wang, K.~Wang, M.~Siddiqi, Y.~Freund, and C.~Leslie.
+\newblock Profile-based string kernels for remote homology detection and motif
+  extraction.
+\newblock In \emph{Computational Systems Bioinformatics Conference, 2004. CSB
+  2004. Proceedings. 2004 IEEE}, pages 152--160. IEEE, 2004.
+
+\bibitem[Kuzniar et~al.(2008)Kuzniar, van Ham, Pongor, and
+  Leunissen]{Kuzniar2008}
+A.~Kuzniar, R.~van Ham, S.~Pongor, and J.~A.~M. Leunissen.
+\newblock {The quest for orthologs: finding the corresponding gene across
+  genomes}.
+\newblock \emph{Trends in Genetics}, 24\penalty0 (11):\penalty0 539--551, 2008.
+
+\bibitem[Kyte and Doolittle(1982)]{Kyte1982}
+J.~Kyte and R.~F. Doolittle.
+\newblock A simple method for displaying the hydropathic character of a
+  protein.
+\newblock \emph{Journal of Molecular Biology}, 157\penalty0 (1):\penalty0
+  105--132, 1982.
+
+\bibitem[Laskowski and Thornton(2008)]{Laskowski2008}
+R.~A. Laskowski and J.~M. Thornton.
+\newblock Understanding the molecular machinery of genetics through {3D}
+  structures.
+\newblock \emph{Nature Review Genetics}, 9\penalty0 (2):\penalty0 141--151,
+  2008.
+
+\bibitem[Lee et~al.(2007)Lee, Redfern, and Orengo]{Lee2007}
+D.~Lee, O.~Redfern, and C.~Orengo.
+\newblock {Predicting protein function from sequence and structure}.
+\newblock \emph{Nature Reviews Molecular Cell Biology}, 8\penalty0
+  (12):\penalty0 995--1005, 2007.
+
+\bibitem[Lee et~al.(2004)Lee, Date, Adai, and Marcotte]{Lee2004}
+I.~Lee, S.~V. Date, A.~T. Adai, and E.~M. Marcotte.
+\newblock A probabilistic functional network of yeast genes.
+\newblock \emph{Science}, 306\penalty0 (5701):\penalty0 1555--1558, 2004.
+
+\bibitem[Leslie et~al.(2002)Leslie, Eskin, and Noble]{Leslie2002}
+C.~Leslie, E.~Eskin, and W.~S. Noble.
+\newblock {The spectrum kernel: a string kernel for SVM protein
+  classification.}
+\newblock \emph{Pacific Symposium on Biocomputing}, 575\penalty0 (50):\penalty0
+  564--575, 2002.
+
+\bibitem[Letovsky and Kasif(2003)]{Letovsky2003}
+S.~Letovsky and S.~Kasif.
+\newblock Predicting protein function from protein/protein interaction data: a
+  probabilistic approach.
+\newblock \emph{Bioinformatics}, 19 Suppl 1:\penalty0 i197--204, 2003.
+
+\bibitem[Lewis et~al.(2012)Lewis, Jones, Porter, and Deane]{Lewis2012}
+A.~C. Lewis, N.~S. Jones, M.~A. Porter, and C.~M. Deane.
+\newblock What evidence is there for the homology of protein-protein
+  interactions?
+\newblock \emph{PLoS Computational Biology}, 8\penalty0 (9):\penalty0 e1002645,
+  2012.
+
+\bibitem[Li and Gojobori(1983)]{Li1983}
+W.~H. Li and T.~Gojobori.
+\newblock {Rapid evolution of goat and sheep globin genes following gene
+  duplication}.
+\newblock \emph{Molecular Biology and Evolution}, 1\penalty0 (1):\penalty0
+  94--108, 1983.
+
+\bibitem[{Li, Wen-Hsiung}(1997)]{Li1997}
+{Li, Wen-Hsiung}.
+\newblock \emph{{Molecular Evolution}}.
+\newblock Sinauer Associates, Sunderland, Mass., 1997.
+
+\bibitem[Liao and Zhang(2006)]{Liao2006}
+B.~Y. Liao and J.~Zhang.
+\newblock {Evolutionary conservation of expression profiles between human and
+  mouse orthologous genes}.
+\newblock \emph{Molecular Biology and Evolution}, 23\penalty0 (3):\penalty0
+  530--540, 2006.
+
+\bibitem[Liao and Zhang(2008)]{Liao2008}
+B.~Y. Liao and J.~Z. Zhang.
+\newblock {Null mutations in human and mouse orthologs frequently result in
+  different phenotypes}.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 105\penalty0 (19):\penalty0 6987--6992, 2008.
+
+\bibitem[Lin(1998)]{Lin1998}
+D.~Lin.
+\newblock An information-theoretic definition of similarity.
+\newblock In \emph{Proceedings of the 15th International Conference on Machine
+  Learning}, pages 296--304. Morgan Kaufmann, 1998.
+
+\bibitem[Linde et~al.(1980)Linde, Buzo, and Gray]{Linde1980algorithm}
+Y.~Linde, A.~Buzo, and R.~Gray.
+\newblock An algorithm for vector quantizer design.
+\newblock \emph{IEEE Transactions on Communications}, 28\penalty0 (1):\penalty0
+  84--95, 1980.
+
+\bibitem[Liolios et~al.(2008)Liolios, Mavromatis, Tavernarakis, and
+  Kyrpides]{Liolios2008}
+K.~Liolios, K.~Mavromatis, N.~Tavernarakis, and N.~C. Kyrpides.
+\newblock The genomes on line database (gold) in 2007: status of genomic and
+  metagenomic projects and their associated metadata.
+\newblock \emph{Nucleic Acids Research}, 36\penalty0 (Database issue):\penalty0
+  D475--479, 2008.
+
+\bibitem[Lord et~al.(2003)]{Lord2003}
+P.~W. Lord et~al.
+\newblock Investigating semantic similarity measures across the {Gene
+  Ontology}: the relationship between sequence and annotation.
+\newblock \emph{Bioinformatics}, 19\penalty0 (10):\penalty0 1275--1283, 2003.
+
+\bibitem[Lynch and Conery(2000)]{Lynch2000}
+M.~Lynch and J.~S. Conery.
+\newblock The evolutionary fate and consequences of duplicate genes.
+\newblock \emph{Science}, 290\penalty0 (5494):\penalty0 1151--1155, 2000.
+
+\bibitem[Makova and Li(2003)]{Makova2003}
+K.~D. Makova and W.~H. Li.
+\newblock {Divergence in the spatial pattern of gene expression between human
+  duplicate genes}.
+\newblock \emph{Genome Research}, 13\penalty0 (7):\penalty0 1638--1645, 2003.
+
+\bibitem[Marcotte et~al.(1999)Marcotte, Pellegrini, Ng, Rice, Yeates, and
+  Eisenberg]{marcotte1999detecting}
+E.~M. Marcotte, M.~Pellegrini, H.-L. Ng, D.~W. Rice, T.~O. Yeates, and
+  D.~Eisenberg.
+\newblock Detecting protein function and protein-protein interactions from
+  genome sequences.
+\newblock \emph{Science}, 285\penalty0 (5428):\penalty0 751--753, 1999.
+
+\bibitem[Martin et~al.(2004)]{Martin2004}
+D.~M. Martin et~al.
+\newblock {GOtcha}: a new method for prediction of protein function assessed by
+  the annotation of seven genomes.
+\newblock \emph{BMC Bioinformatics}, 5:\penalty0 178, 2004.
+
+\bibitem[Mika and Rost(2006)]{Mika2006}
+S.~Mika and B.~Rost.
+\newblock {Protein-protein interactions more conserved within species than
+  across species}.
+\newblock \emph{PLoS Computational Biology}, 2\penalty0 (7):\penalty0 e79,
+  2006.
+
+\bibitem[Millikan(1989)]{millikan1989defense}
+R.~G. Millikan.
+\newblock In defense of proper functions.
+\newblock \emph{Philosophy of Science}, pages 288--302, 1989.
+
+\bibitem[Minneci et~al.(2013)Minneci, Piovesan, Cozzetto, and
+  Jones]{minneci2013ffpred}
+F.~Minneci, D.~Piovesan, D.~Cozzetto, and D.~T. Jones.
+\newblock Ffpred 2.0: Improved homology-independent prediction of gene ontology
+  terms for eukaryotic protein sequences.
+\newblock \emph{PLoS One}, 8\penalty0 (5):\penalty0 e63754, 2013.
+
+\bibitem[Mohan et~al.(2009)Mohan, Uversky, and Radivojac]{Mohan2009}
+A.~Mohan, V.~N. Uversky, and P.~Radivojac.
+\newblock Influence of sequence changes and environment on intrinsically
+  disordered proteins.
+\newblock \emph{PLoS Computational Biology}, 5\penalty0 (9):\penalty0 e1000497,
+  2009.
+
+\bibitem[Muller(1936)]{Muller1936}
+H.~J. Muller.
+\newblock {Bar duplication}.
+\newblock \emph{Science}, 83\penalty0 (2161):\penalty0 528--530, 1936.
+
+\bibitem[Murzin et~al.(1995)Murzin, Brenner, Hubbard, Chothia, and
+  Others]{murzin1995scop}
+A.~G. Murzin, S.~E. Brenner, T.~Hubbard, C.~Chothia, and Others.
+\newblock {SCOP: a structural classification of proteins database for the
+  investigation of sequences and structures}.
+\newblock \emph{Journal of Molecular Biology}, 247\penalty0 (4):\penalty0
+  536--540, 1995.
+
+\bibitem[Nabieva et~al.(2005)Nabieva, Jim, Agarwal, Chazelle, and
+  Singh]{Nabieva2005}
+E.~Nabieva, K.~Jim, A.~Agarwal, B.~Chazelle, and M.~Singh.
+\newblock Whole-proteome prediction of protein function via graph-theoretic
+  analysis of interaction maps.
+\newblock \emph{Bioinformatics}, 21 Suppl 1:\penalty0 i302--310, 2005.
+
+\bibitem[NCotIUoBaMB(1992)]{NC_IUBMB_1992}
+N.-I. NCotIUoBaMB.
+\newblock \emph{Enzyme nomenclature}.
+\newblock Academic Press, New York, 1992.
+
+\bibitem[Nehrt et~al.(2011)Nehrt, Clark, Radivojac, and Hahn]{Nehrt2011}
+N.~L. Nehrt, W.~T. Clark, P.~Radivojac, and M.~W. Hahn.
+\newblock {Testing the ortholog conjecture with comparative functional genomic
+  data from mammals.}
+\newblock \emph{PLoS Computational Biology}, 7\penalty0 (6):\penalty0 e1002073,
+  2011.
+
+\bibitem[Noble(2004)]{noble2004kernel}
+W.~S. Noble.
+\newblock {Support Vector Machine Applications in Computational Biology}.
+\newblock In B.~Sch\"olkopf, K.~Tsuda, and J.-P. Vert, editors, \emph{{Kernel
+  methods in computational biology}}, chapter~3, pages 71--92. The MIT Press,
+  2004.
+
+\bibitem[Nooren and Thornton(2003)]{Nooren2003}
+I.~M.~A. Nooren and J.~M. Thornton.
+\newblock {Diversity of protein-protein interactions.}
+\newblock \emph{The European Molecular Biology Organization Journal},
+  22\penalty0 (14):\penalty0 3486--3492, 2003.
+
+\bibitem[Ohno(1970)]{Ohno1970}
+S.~Ohno.
+\newblock \emph{Evolution by Gene Duplication}.
+\newblock Springer-Verlag, 1970.
+
+\bibitem[Pal and Eisenberg(2005)]{Pal2005}
+D.~Pal and D.~Eisenberg.
+\newblock Inference of protein function from protein structure.
+\newblock \emph{Structure}, 13\penalty0 (1):\penalty0 121--130, 2005.
+
+\bibitem[Pazos and Sternberg(2004)]{Pazos2004}
+F.~Pazos and M.~J. Sternberg.
+\newblock Automated prediction of protein function and detection of functional
+  sites from structure.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 101\penalty0 (41):\penalty0 14754--14759, 2004.
+
+\bibitem[Pellegrini et~al.(1999)Pellegrini, Marcotte, Thompson, Eisenberg, and
+  Yeates]{Pellegrini1999}
+M.~Pellegrini, E.~M. Marcotte, M.~J. Thompson, D.~Eisenberg, and T.~O. Yeates.
+\newblock Assigning protein functions by comparative genome analysis: protein
+  phylogenetic profiles.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 96\penalty0 (8):\penalty0 4285--4288, 1999.
+
+\bibitem[Peng et~al.(2006)Peng, Radivojac, Vucetic, Dunker, and
+  Obradovic]{Peng2006}
+K.~Peng, P.~Radivojac, S.~Vucetic, A.~K. Dunker, and Z.~Obradovic.
+\newblock Length-dependent prediction of protein intrinsic disorder.
+\newblock \emph{BMC Bioinformatics}, 7\penalty0 (1):\penalty0 208, 2006.
+
+\bibitem[Pesquita et~al.(2009)]{Pesquita2009}
+C.~Pesquita et~al.
+\newblock Semantic similarity in biomedical ontologies.
+\newblock \emph{PLoS Computational Biology}, 5\penalty0 (7):\penalty0 e1000443,
+  2009.
+
+\bibitem[Punta and Ofran(2008)]{Punta2008}
+M.~Punta and Y.~Ofran.
+\newblock The rough guide to in silico function prediction, or how to use
+  sequence and structure information to predict protein function.
+\newblock \emph{PLoS Computational Biology}, 4\penalty0 (10):\penalty0
+  e1000160, 2008.
+
+\bibitem[Qiu et~al.(2007)Qiu, Hue, Ben-Hur, Vert, and Noble]{qiu2007structural}
+J.~Qiu, M.~Hue, A.~Ben-Hur, J.-P. Vert, and W.~S. Noble.
+\newblock A structural alignment kernel for protein structures.
+\newblock \emph{Bioinformatics}, 23\penalty0 (9):\penalty0 1090--1098, 2007.
+
+\bibitem[Rada et~al.(1989)]{Rada1989}
+R.~Rada et~al.
+\newblock Development and application of a metric on semantic nets.
+\newblock \emph{IEEE Transactions on Systems, Man, and Cybernetics},
+  19\penalty0 (1):\penalty0 17--30, 1989.
+
+\bibitem[Radivojac et~al.(2004)Radivojac, Obradovic, Smith, Zhu, Vucetic,
+  Brown, Lawson, and Dunker]{radivojac2004protein}
+P.~Radivojac, Z.~Obradovic, D.~K. Smith, G.~Zhu, S.~Vucetic, C.~J. Brown, J.~D.
+  Lawson, and A.~K. Dunker.
+\newblock Protein flexibility and intrinsic disorder.
+\newblock \emph{Protein Science}, 13\penalty0 (1):\penalty0 71--80, 2004.
+
+\bibitem[Radivojac et~al.(2007)Radivojac, Iakoucheva, Oldfield, Obradovic,
+  Uversky, and Dunker]{Radivojac2007}
+P.~Radivojac, L.~M. Iakoucheva, C.~J. Oldfield, Z.~Obradovic, V.~N. Uversky,
+  and A.~K. Dunker.
+\newblock Intrinsic disorder and functional proteomics.
+\newblock \emph{Biophysical Journal}, 92\penalty0 (5):\penalty0 1439--1456,
+  2007.
+
+\bibitem[Radivojac et~al.(2008)Radivojac, Peng, Clark, Peters, Mohan, Boyle,
+  and Mooney]{Radivojac2008}
+P.~Radivojac, K.~Peng, W.~T. Clark, B.~J. Peters, A.~Mohan, S.~M. Boyle, and
+  S.~D. Mooney.
+\newblock {An integrated approach to inferring gene-disease associations in
+  humans}.
+\newblock \emph{Proteins, Structure, Function and Bioinformatics}, 72\penalty0
+  (3):\penalty0 1030--1037, 2008.
+
+\bibitem[Radivojac et~al.(2013)Radivojac, Clark, et~al.]{Radivojac2013}
+P.~Radivojac, W.~T. Clark, et~al.
+\newblock A large-scale evaluation of computational protein function
+  prediction.
+\newblock \emph{Nature Methods}, 10\penalty0 (3):\penalty0 221--227, 2013.
+
+\bibitem[Ralaivola et~al.(2005)Ralaivola, Swamidass, Saigo, Baldi,
+  et~al.]{ralaivola2005graph}
+L.~Ralaivola, S.~J. Swamidass, H.~Saigo, P.~Baldi, et~al.
+\newblock Graph kernels for chemical informatics.
+\newblock \emph{Neural Networks}, 18\penalty0 (8):\penalty0 1093--1110, 2005.
+
+\bibitem[Remm et~al.(2001)Remm, Storm, and Sonnhammer]{Remm2001}
+M.~Remm, C.~E. Storm, and E.~L. Sonnhammer.
+\newblock {Automatic clustering of orthologs and in-paralogs from pairwise
+  species comparisons}.
+\newblock \emph{Journal of Molecular Biology}, 314\penalty0 (5):\penalty0
+  1041--1052, 2001.
+
+\bibitem[Rentzsch and Orengo(2009)]{Rentzsch2009}
+R.~Rentzsch and C.~Orengo.
+\newblock Protein function prediction--the power of multiplicity.
+\newblock \emph{Trends in Biotechnology}, 27\penalty0 (4):\penalty0 210--219,
+  2009.
+
+\bibitem[Resnik(1995)]{Resnik1995}
+P.~Resnik.
+\newblock Using information content to evaluate semantic similarity in a
+  taxonomy.
+\newblock In \emph{Proceedings of the 14th International Joint Conference on
+  Artificial Intelligence}, pages 448--453, 1995.
+
+\bibitem[Resnik(1999)]{Resnik1999}
+P.~Resnik.
+\newblock Semantic similarity in a taxonomy: an information-based measure and
+  its application to problems of ambiguity in natural language.
+\newblock \emph{Journal of Artificial Intellegence Research}, 11:\penalty0
+  95--130, 1999.
+
+\bibitem[Riedmiller and Braun(1993)]{Riedmiller1993}
+M.~Riedmiller and H.~Braun.
+\newblock A direct adaptive method for faster backpropagation learning: the
+  rprop algorithm.
+\newblock In \emph{International Conference on Neural Networks}, volume~1,
+  pages 586 -- 591. IEEE, 1993.
+
+\bibitem[Robinson and Bauer(2011)]{Robinson2011}
+P.~N. Robinson and S.~Bauer.
+\newblock \emph{Introduction to bio-ontologies}.
+\newblock CRC Press, Boca Raton, Florida, U.S.A., 2011.
+
+\bibitem[Robinson and Mundlos(2010)]{Robinson2010}
+P.~N. Robinson and S.~Mundlos.
+\newblock The human phenotype ontology.
+\newblock \emph{Clinical Genetics}, 77\penalty0 (6):\penalty0 525--534, 2010.
+
+\bibitem[Rogers and Ben-Hur(2009)]{Rogers2009}
+M.~F. Rogers and A.~Ben-Hur.
+\newblock The use of gene ontology evidence codes in preventing classifier
+  assessment bias.
+\newblock \emph{Bioinformatics}, 25\penalty0 (9):\penalty0 1173--1177, 2009.
+
+\bibitem[Rost(1999)]{Rost1999}
+B.~Rost.
+\newblock Twilight zone of protein sequence alignments.
+\newblock \emph{Protein Engineering}, 12\penalty0 (2):\penalty0 85--94, 1999.
+
+\bibitem[Rost et~al.(2003)Rost, Liu, Nair, Wrzeszczynski, and Ofran]{Rost2003}
+B.~Rost, J.~Liu, R.~Nair, K.~O. Wrzeszczynski, and Y.~Ofran.
+\newblock {Automatic prediction of protein function.}
+\newblock \emph{Cellular and Molecular Life Sciences}, 60\penalty0
+  (12):\penalty0 2637--2650, 2003.
+
+\bibitem[Ruepp et~al.(2004)Ruepp, Zollner, Maier, Albermann, Hani, Mokrejs,
+  Tetko, Guldener, Mannhaupt, Munsterkotter, and Mewes]{Ruepp2004}
+A.~Ruepp, A.~Zollner, D.~Maier, K.~Albermann, J.~Hani, M.~Mokrejs, I.~Tetko,
+  U.~Guldener, G.~Mannhaupt, M.~Munsterkotter, and H.~W. Mewes.
+\newblock The funcat, a functional annotation scheme for systematic
+  classification of proteins from whole genomes.
+\newblock \emph{Nucleic Acids Research}, 32\penalty0 (18):\penalty0 5539--5545,
+  2004.
+
+\bibitem[Saeed and Deane(2008)]{Saeed2008}
+R.~Saeed and C.~Deane.
+\newblock {An assessment of the uses of homologous interactions.}
+\newblock \emph{Bioinformatics}, 24\penalty0 (5):\penalty0 689--95, Mar. 2008.
+
+\bibitem[Schlicker et~al.(2006)]{Schlicker2006}
+A.~Schlicker et~al.
+\newblock A new measure for functional similarity of gene products based on
+  {Gene Ontology}.
+\newblock \emph{BMC Bioinformatics}, 7:\penalty0 302, 2006.
+
+\bibitem[Schnoes et~al.(2009)Schnoes, Brown, Dodevski, and
+  Babbitt]{Schnoes2009}
+A.~M. Schnoes, S.~D. Brown, I.~Dodevski, and P.~C. Babbitt.
+\newblock {Annotation error in public databases: Misannotation of molecular
+  function in enzyme superfamilies}.
+\newblock \emph{PLoS Computational Biology}, 5\penalty0 (12):\penalty0
+  e1000605, 2009.
+
+\bibitem[Sch\"olkopf et~al.(2004)Sch\"olkopf, Tsuda, and
+  Vert]{schoolkopf2004kernel}
+B.~Sch\"olkopf, K.~Tsuda, and J.-P. Vert, editors.
+\newblock \emph{{Kernel methods in computational biology}}.
+\newblock The MIT Press, 2004.
+
+\bibitem[Schriml et~al.(2012)Schriml, Arze, Nadendla, Chang, Mazaitis, Felix,
+  Feng, and Kibbe]{schriml2012disease}
+L.~M. Schriml, C.~Arze, S.~Nadendla, Y.-W.~W. Chang, M.~Mazaitis, V.~Felix,
+  G.~Feng, and W.~A. Kibbe.
+\newblock Disease ontology: a backbone for disease semantic integration.
+\newblock \emph{Nucleic Acids Research}, 40\penalty0 (D1):\penalty0 D940--D946,
+  2012.
+
+\bibitem[Sennblad and Lagergren(2009)]{Sennblad2009}
+B.~Sennblad and J.~Lagergren.
+\newblock {Probabilistic orthology analysis}.
+\newblock \emph{Systematic Biology}, 58\penalty0 (4):\penalty0 411--424, 2009.
+
+\bibitem[Sharan et~al.(2007)]{Sharan2007}
+R.~Sharan et~al.
+\newblock Network-based prediction of protein function.
+\newblock \emph{Molecular Systems Biology}, 3:\penalty0 88, 2007.
+
+\bibitem[Shawe-Taylor and Cristianini(2004)]{shawe2004kernel}
+J.~Shawe-Taylor and N.~Cristianini, editors.
+\newblock \emph{Kernel Methods for Pattern Analysis}.
+\newblock Cambridge University Press, 2004.
+
+\bibitem[Shi et~al.(2010)Shi, Zhang, and Jiang]{Shi2010}
+G.~Shi, L.~Zhang, and T.~Jiang.
+\newblock {MSOAR 2.0: Incorporating tandem duplications into ortholog
+  assignment based on genome rearrangement}.
+\newblock \emph{BMC Bioinformatics}, 11\penalty0 (1):\penalty0 10, 2010.
+
+\bibitem[{\v{S}}kunca et~al.(2012){\v{S}}kunca, Altenhoff, and
+  Dessimoz]{vskunca2012quality}
+N.~{\v{S}}kunca, A.~Altenhoff, and C.~Dessimoz.
+\newblock Quality of computationally inferred gene ontology annotations.
+\newblock \emph{PLoS Computational Biology}, 8\penalty0 (5):\penalty0 e1002533,
+  2012.
+
+\bibitem[{\v{S}}kunca et~al.(2013){\v{S}}kunca, Bo{\v{s}}njak, Kri{\v{s}}ko,
+  Panov, D{\v{z}}eroski, {\v{S}}muc, and Supek]{vskunca2012phyletic}
+N.~{\v{S}}kunca, M.~Bo{\v{s}}njak, A.~Kri{\v{s}}ko, P.~Panov,
+  S.~D{\v{z}}eroski, T.~{\v{S}}muc, and F.~Supek.
+\newblock Phyletic profiling with cliques of orthologs is enhanced by
+  signatures of paralogy relationships.
+\newblock \emph{PLoS Computational Biology}, 1553:\penalty0 734X, 2013.
+
+\bibitem[Sokolov and Ben-Hur(2010)]{Sokolov2010}
+A.~Sokolov and A.~Ben-Hur.
+\newblock Hierarchical classification of gene ontology terms using the gostruct
+  method.
+\newblock \emph{Journal of Bioinformatics and Computational Biology},
+  8\penalty0 (2):\penalty0 357--376, 2010.
+
+\bibitem[Sonnhammer and Koonin(2002)]{Sonnhammer2002}
+E.~L.~L. Sonnhammer and E.~V. Koonin.
+\newblock {Orthology, paralogy and proposed classification for paralog
+  subtypes}.
+\newblock \emph{Trends in Genetics}, 18\penalty0 (12):\penalty0 619--620, 2002.
+
+\bibitem[Sprinzak et~al.(2003)Sprinzak, Sattath, and Margalit]{Sprinzak2003}
+E.~Sprinzak, S.~Sattath, and H.~Margalit.
+\newblock {How reliable are experimental protein-protein interaction data?}
+\newblock \emph{Journal of Molecular Biology}, 327\penalty0 (5):\penalty0
+  919--923, 2003.
+
+\bibitem[Stephens(1951)]{Stephens1951}
+S.~Stephens.
+\newblock Possible significance of duplication in evolution.
+\newblock \emph{Advances in Genetics}, 4:\penalty0 247--265, 1951.
+
+\bibitem[Strang(2003)]{strang2003introduction}
+G.~Strang.
+\newblock \emph{Introduction to Linear Algebra}.
+\newblock Wellsley-Cambrige Press, 3 edition, 2003.
+
+\bibitem[Studer and Robinson-Rechavi(2009)]{Studer2009}
+R.~A. Studer and M.~Robinson-Rechavi.
+\newblock How confident can we be that orthologs are similar, but paralogs
+  differ?
+\newblock \emph{Trends in Genetics}, 25\penalty0 (5):\penalty0 210--216, 2009.
+
+\bibitem[Studer et~al.(2008)Studer, Penel, Duret, and
+  Robinson-Rechavi]{Studer2008}
+R.~A. Studer, S.~Penel, L.~Duret, and M.~Robinson-Rechavi.
+\newblock {Pervasive positive selection on duplicated and nonduplicated
+  vertebrate protein coding genes}.
+\newblock \emph{Genome Research}, 18\penalty0 (9):\penalty0 1393--1402, 2008.
+
+\bibitem[Su et~al.(2004)Su, Wiltshire, Batalov, Lapp, Ching, Block, Zhang,
+  Soden, Hayakawa, Kreiman, Cooke, Walker, and Hogenesch]{Su2004}
+A.~I. Su, T.~Wiltshire, S.~Batalov, H.~Lapp, K.~A. Ching, D.~Block, J.~Zhang,
+  R.~Soden, M.~Hayakawa, G.~Kreiman, M.~P. Cooke, J.~R. Walker, and J.~B.
+  Hogenesch.
+\newblock {A gene atlas of the mouse and human protein-encoding
+  transcriptomes}.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 101\penalty0 (16):\penalty0 6062--6067, 2004.
+
+\bibitem[Tatusov et~al.(1997)Tatusov, Koonin, and Lipman]{Tatusov1997}
+R.~L. Tatusov, E.~V. Koonin, and D.~J. Lipman.
+\newblock A genomic perspective on protein families.
+\newblock \emph{Science}, 278\penalty0 (5338):\penalty0 631--637, 1997.
+
+\bibitem[Tennessen(2008)]{Tennessen2008}
+J.~A. Tennessen.
+\newblock {Positive selection drives a correlation between
+  non-synonymous/synonymous divergence and functional divergence}.
+\newblock \emph{Bioinformatics}, 24\penalty0 (12):\penalty0 1421--1425, 2008.
+
+\bibitem[Tian and Skolnick(2003)]{Tian2003}
+W.~Tian and J.~Skolnick.
+\newblock How well is enzyme function conserved as a function of pairwise
+  sequence identity?
+\newblock \emph{Journal of Molecular Biology}, 333\penalty0 (4):\penalty0
+  863--882, 2003.
+
+\bibitem[Todd et~al.(2001)Todd, Orengo, and Thornton]{Todd2001}
+A.~E. Todd, C.~A. Orengo, and J.~M. Thornton.
+\newblock Evolution of function in protein superfamilies, from a structural
+  perspective.
+\newblock \emph{Journal of Molecular Biology}, 307\penalty0 (4):\penalty0
+  1113--1143, 2001.
+
+\bibitem[Troyanskaya et~al.(2003)Troyanskaya, Dolinski, Owen, Altman, and
+  Botstein]{Troyanskaya2003}
+O.~G. Troyanskaya, K.~Dolinski, A.~B. Owen, R.~B. Altman, and D.~Botstein.
+\newblock A bayesian framework for combining heterogeneous data sources for
+  gene function prediction (in saccharomyces cerevisiae).
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 100\penalty0 (14):\penalty0 8348--8353, 2003.
+
+\bibitem[Tuytelaars and Schmid(2007)]{Tuytelaars2007}
+T.~Tuytelaars and C.~Schmid.
+\newblock {Vector Quantizing Feature Space with a Regular Lattice}.
+\newblock In \emph{11th International Conference on Computer Vision}, pages
+  1--8. IEEE, 2007.
+
+\bibitem[Tyagi et~al.(2012)Tyagi, Thangudu, Zhang, Bryant, Madej, and
+  Panchenko]{Tyagi2012}
+M.~Tyagi, R.~R. Thangudu, D.~Zhang, S.~H. Bryant, T.~Madej, and A.~R.
+  Panchenko.
+\newblock {Homology Inference of Protein-Protein Interactions via Conserved
+  Binding Sites}.
+\newblock \emph{PLoS ONE}, 7\penalty0 (1):\penalty0 e28896, 2012.
+
+\bibitem[Vacic et~al.(2010)Vacic, Iakoucheva, Lonardi, and
+  Radivojac]{Vacic2010}
+V.~Vacic, L.~M. Iakoucheva, S.~Lonardi, and P.~Radivojac.
+\newblock {Graphlet kernels for prediction of functional residues in protein
+  structures.}
+\newblock \emph{Journal of Computational Biology}, 17\penalty0 (1):\penalty0
+  55--72, 2010.
+
+\bibitem[Vazquez et~al.(2003)Vazquez, Flammini, Maritan, and
+  Vespignani]{Vazquez2003}
+A.~Vazquez, A.~Flammini, A.~Maritan, and A.~Vespignani.
+\newblock Global protein function prediction from protein-protein interaction
+  networks.
+\newblock \emph{Nature Biotechnology}, 21\penalty0 (6):\penalty0 697--700,
+  2003.
+
+\bibitem[Verspoor et~al.(2006)]{Verspoor2006}
+K.~Verspoor et~al.
+\newblock A categorization approach to automated ontological function
+  annotation.
+\newblock \emph{Protein Science}, 15\penalty0 (6):\penalty0 1544--1549, 2006.
+
+\bibitem[Vert(2002)]{Vert2002}
+J.-P. Vert.
+\newblock {A tree kernel to analyse phylogenetic profiles.}
+\newblock \emph{Bioinformatics}, 18\penalty0 (1):\penalty0 S276--S284, 2002.
+
+\bibitem[Vilella et~al.(2009)Vilella, Severin, Ureta-Vidal, Heng, Durbin, and
+  Birney]{Vilella2009}
+A.~J. Vilella, J.~Severin, A.~Ureta-Vidal, L.~Heng, R.~Durbin, and E.~Birney.
+\newblock {Ensembl Compara GeneTrees: Complete, duplication-aware phylogenetic
+  trees in vertebrates}.
+\newblock \emph{Genome Research}, 19\penalty0 (2):\penalty0 327--335, 2009.
+
+\bibitem[Wass and Sternberg(2008)]{Wass2008}
+M.~N. Wass and M.~J. Sternberg.
+\newblock {ConFunc--functional annotation in the twilight zone}.
+\newblock \emph{Bioinformatics}, 24\penalty0 (6):\penalty0 798--806, 2008.
+
+\bibitem[Wilson et~al.(2000)Wilson, Kreychman, and Gerstein]{Wilson2000}
+C.~A. Wilson, J.~Kreychman, and M.~Gerstein.
+\newblock Assessing annotation transfer for genomics: quantifying the relations
+  between protein sequence, structure and function through traditional and
+  probabilistic scores.
+\newblock \emph{Journal of Molecular Biology}, 297\penalty0 (1):\penalty0
+  233--249, 2000.
+
+\bibitem[Xin and Radivojac(2011)]{Xin2011}
+F.~Xin and P.~Radivojac.
+\newblock {Computational methods for identification of functional residues in
+  protein structures}.
+\newblock \emph{Current Protein Peptide Science}, 120\penalty0 (6):\penalty0
+  456--69, 2011.
+
+\bibitem[Yu et~al.(2004)Yu, Luscombe, Lu, Zhu, Xia, Han, Bertin, Chung, Vidal,
+  and Gerstein]{Yu2004}
+H.~Yu, N.~M. Luscombe, H.~X. Lu, X.~Zhu, Y.~Xia, J.-D.~J. Han, N.~Bertin,
+  S.~Chung, M.~Vidal, and M.~Gerstein.
+\newblock {Annotation transfer between genomes: protein-protein interologs and
+  protein-DNA regulogs.}
+\newblock \emph{Genome Research}, 14\penalty0 (6):\penalty0 1107--1118, 2004.
+
+\bibitem[Zmasek and Eddy(2002)]{Zmasek2002}
+C.~M. Zmasek and S.~R. Eddy.
+\newblock {RIO: analyzing proteomes by automated phylogenomics using resampled
+  inference of orthologs}.
+\newblock \emph{BMC Bioinformatics}, 3\penalty0 (1):\penalty0 14, 2002.
+
+\bibitem[Zuckerkandl and Pauling(1965)]{Zuckerkandl1965}
+E.~Zuckerkandl and L.~Pauling.
+\newblock {Evolutionary divergence and convergence in proteins}.
+\newblock In V.~Bryson and H.~J. Vogel, editors, \emph{Evolving Genes and
+  Proteins}, pages 97--166. Academic Press, New York, 1965.
+
+\end{thebibliography}

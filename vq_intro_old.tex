@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+Although there are notable exceptions \citep{Dunker2001a,Dunker2001}, the structure and function of a protein  are indelibly related; a protein's ability to induce chemical or physical change can be characterized, at some level, by  illustrating what structural characteristics (or lack thereof) endow that protein with its particular abilities.  While there are well established methods for experimentally resolving the structure of a protein (NMR, x-ray crystallography), these methods are costly, tedious, time consuming and rarely guarantee success.  Because of these difficulties the rate of growth of the compendium of known protein structures is far outpaced by the growth of known sequences; growth largely driven by high-throughput sequencing efforts.  In light of the important relationship between structure and function computational methods can potentially bridge the gap between the set of all known coding sequences and their associated protein structures.
+
+%I actually don't like this introduction.  There is very little functional conservation of function amongst SCOP folds.  I believe we might be misleading readers to think we are implying the opposite when we are actually making a more subtle point: the physical confirmation of a protein dictates its propensity to behave in certain ways.
+
+The same is true when considering the function of a protein.  Experimentally characterizing a protein's function is expensive and time consuming.  Furthermore, with many organisms certain experiments, such as knockout studies in humans, are also unethical to conduct.  \emph{In-silico} methods also hold the greatest promise for functionally characterizing the large number of unannotated protein sequences that have been discovered.
+
+Perhaps the simplest, and most intuitive manner in which structure and function can be inferred is through homology, or its common proxy sequence similarity. Traditionally, protein sequences are represented as a string of letters representing amino acids.  Alignment programs like BLAST \citep{Altschul1990} do not explicitly consider the physiochemical properties associated with each amino acid, although it could be argued that substitution matrices like PAM \citep{Dayhoff1978} and BLOSUM \citep{Henikoff1992} implicitly encode the physiochemical similarities between amino acids.  
+
+In this paper we have made a conscious choice to represent proteins, not as a sequence of letters or 3-D coordinates, but as a set of physiochemical and structural characteristics associated with each amino acid.  Although kernel methods can potentially be used to compare objects without explicitly representing them in feature space, we used a kernel function to encode each variable length property vector; which we refer to as a time series sequence, as a fixed length vector suitable for use in a supervised learning framework.  Kernel have been widely used in computational biology \citep{schoolkopf2004kernel}, finding applications in the identification of functional residues \citep{Vacic2010,Xin2011}, the prediction of protein-protein interactions \citep{BenHur2005}, the inference of function \citep{Vert2002,DeBie2007}, and the categorization of secondary strucutre \citep{Leslie2002}.  Our kernel function is novel in the way that we handle real valued, as opposed to discrete data, utilizing $k$-means clustering to discretize a continuous feature space.
+
+While it may be beneficial to represent an amino acid as a set of real values based on physiochemical and structural properties; as opposed to a characters that don't explicitly encode any biological or chemical information, the shift from a representation that takes on an enumerable number of values to one that is uncountably infinite poses problems.  For example, one common kernel representation of an object is the simple count kernel (detailed in \Cref{sec:propertykernels}).  This representation has been used in the classification of text documents, protein sequences, as well as [insert tons of examples here].  A count kernel counts the number of times a single character, $n$-mer, or word appears in a sequence.  Each sequence, or document, is then represented as a fixed length vector, whose length is defined by the cardinality of the set of possible $n$-length words that can be created by the relevant alphabet.  For example, a count kernel using $n=3$ length ``mers" to represent a  protein would result in each sequence being represented as a $20^{3}$ length vector.  Representing each amino acid, as a real value poses a problem because each amino acid can be assigned an infinitely uncountable set of values, resulting in a theoretically infinite feature vector when encoded using a count kernel.  
+
+We solve this problem in a novel way by discretizing $n$ length vectors using k-means clustering (in this case we use $m$ means).  Each $n$ length vector sampled from the larger series of data can then be discretized and represented by the centroid from the clustered data it is closest to.  We chose to use $k$-means clustering as opposed to simply creating a lattice in $n$ dimensional space, as done by \citet{Tuytelaars2007}, because sampled property vectors do not fill the space evenly, but instead cluster around evolutionarily conserved or sterically preferred ``spaces".
+
+Finally, we compare the efficacy of explicitly using sequence properties to a sequence similarity based spectral kernel \citep{Leslie2002} in the tasks of predicting protein function and SCOP fold.
+
+%% Figure
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\input{Figures/VQ/TimeSeries/TimeSeries}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%OLD CAPTION
+%\caption[Representation of a sequence as a time series property vector]{A sequence is represented as a set of sequence properties as opposed to a string of letters. Each property can represent a particular derived characteristic of the amino acid sequence. In this case predicted sequence hydrophobicity (green), and intrinsic disorder (blue) are plotted as normalized values between 0 and 1.}
+
+
+In order to simulate this we performed cross-validation on two distinct experiments in order to test the viability of the general VQ model; attempting to classify a protein according to its secondary structure or its molecular function.  This was done for several types of structure and sequence property based features (\Cref{sec:vqfeatures}) and for varied implementations of the basic VQ concept (\Cref{sec:propertykernels,sec:additivekernels,sec:distancekernel,sec:combinedkernels}).
+
+%When performing structural classification we categorized protein structures into one of the four general classes, or ``folds", listed in the Structural Classification of Proteins (SCOP): $\alpha$, $\beta$, $\alpha+\beta$, or $\alpha/\beta$ \citep{murzin1995scop}. When performing function prediction we conduct two experiments.  In the first, we predicted whether or not a protein was an enzyme (i.e. should be assigned the ``catalytic activity" GO term).  In the second we attempt, when given a protein already assigned the GO term ``catalytic activity", to determine whether it should be categorized as one or more of the six immediate children of ``catalytic activity" in the ontology: ``oxidoreductase activity", ``transferase activity", ``hydrolase activity", ``lyase activity", ``isomerase activity", or ``ligase activity". \Cref{tab:vqdata} provides a summary of the data sets used to conduct each experiment.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure*}[h!]
+%\begin{centering}
+%\includegraphics[width=.50\linewidth]{Figures/VQ_FIG}
+%\par\end{centering}
+%\caption[A schematic representation of using VQ to encode a sequence represented as a property vector]{A schematic representation of using VQ to encode a sequence represented as a property vector. In \ref{fig:VQ_schematic}(a) an individual property vector is broken up into $n$ length subsamples. In this example the amount of overlap is $\frac{n}{2}$, although differing values can be used, including randomly choosing samples in instances with a large number of sequences. \ref{fig:VQ_schematic}(b), subsampled vectors from a database of sequences are used to create a clustering in $n$ dimensional space, with centroids represented as red squares. Finally, in \ref{fig:VQ_schematic}(c) an original property vector is encoded using the derived set of centroids by counting the number of sub-vectors which are the closest to each centroid. In this case, sub sampled vectors are usually shifted by a single amino acid.}
+%\label{fig:VQ_schematic}
+%\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+

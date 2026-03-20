@@ -1,0 +1,23 @@
+\begin{table*}[h]
+%\resizebox{\columnwidth}{!}{
+	\begin{tabular}{|l||c|c|c||}
+		\hline
+		\multirow{2}{*}{\backslashbox{~~Poperty}{Category~~} } & \multicolumn{3}{c||}{catalytic activity}\\
+		\cline{2-4}
+		 & $m$ & $n$ & $AUC$\\
+		\hline
+		\hline
+		BFactor & 256 & 32 & 0.722\\
+		Helix & 256 & 8 & 0.687\\
+		Hydro & 4096 & 2 & 0.701\\
+		Loop & 256 & 32 & 0.698\\
+		PDBDisorder & 256 & 32 & 0.718\\
+		Sheet & 256 & 4 & 0.681\\
+		VSL2B & 256 & 16 & 0.742\\
+		\hline
+	\end{tabular}
+%}
+\caption[Optimal property based feature performance when predicting ``catalytic activity".]{Optimal performance, according to $AUC$, of each property based feature when predicting ``catalytic activity".  For each property feature the combination of $m$ and $n$ values that obtained the highest $AUC$ fwhen predicting ``catalytic activity" are reported.}
+\label{tab:vqgoscopt}
+
+\end{table*}

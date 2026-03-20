@@ -1,0 +1,37 @@
+\begin{table*}[h]
+
+
+
+\centering
+	\begin{tabular}{|l|ccc|c|ccc|}
+	\hline
+		Property & $n$ & $m$ & $AUC^{\bf{w}}$ &  & $n$ & $m$ & $F^{\bf{w}}_{\max}$\\
+		\hline
+		Alpha & 8 & 4096 & 0.93 &  & 8 & 4096 & 0.81\\
+		Kappa & 32 & 4096 & 0.96 &  & 32 & 4096 & 0.86\\
+		Phi & 32 & 4096 & 0.92 &  & 16 & 4096 & 0.79\\
+		Psi & 32 & 4096 & 0.93 &  & 32 & 4096 & 0.82\\
+		SolAcc & 32 & 4096 & 0.87 &  & 16 & 4096 & 0.70\\
+		\hline
+		BFactor & 4 & 64 & 0.72 &  & 4 & 64 & 0.52\\
+		Helix & 32 & 64 & 0.79 &  & 8 & 64 & 0.60\\
+		Hydro & 4 & 256 & 0.71 &  & 4 & 256 & 0.51\\
+		Loop & 16 & 64 & 0.77 &  & 8 & 64 & 0.58\\
+		PDBDisorder & 4 & 64 & 0.76 &  & 4 & 64 & 0.57\\
+		Sheet & 32 & 64 & 0.79 &  & 16 & 64 & 0.59\\
+		VSL2B & 8 & 64 & 0.68 &  & 8 & 64 & 0.49\\
+		\hline
+		String Kernel & 4 & NA & 0.79 &  & 4 & NA & 0.60\\
+		\hline
+	\end{tabular}
+ 
+					
+
+
+
+ \caption[SCOP fold property based feature optimal  $AUC^{\bf{w}}$ and $F^{\bf{w}}_{\max}$]{Property based feature optimal  $AUC^{\bf{w}}$ and $F^{\bf{w}}_{\max}$ when predicting SCOP fold.  $AUC^{\bf{w}}$ and $F^{\bf{w}}_{\max}$ were calculated as described in \Cref{sec:vqweightedmetrics}, and the combination of $m$ and $n$ values with the highest  $AUC^{\bf{w}}$ and $F^{\bf{w}}_{\max}$ values were reported. Note that optimal $m$ and $n$ values for $AUC^{\bf{w}}$ and $F^{\bf{w}}_{\max}$ for a particular property based feature may differ.  Property based features are separated according to structure based property featires (first fove rows) and sequence based property features (next seven rows).  Finally, In the last row the optimal word size ($n$) for the string kernel, and associated $AUC^{\bf{w}}$ and $F^{\bf{w}}_{\max}$ values are reported. }
+\label{tab:vqscopstandardperformance}
+\end{table*}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+

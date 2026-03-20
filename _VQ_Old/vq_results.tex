@@ -1,0 +1,133 @@
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Performance of individual properties}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{SCOP fold}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\Cref{tab:vqscopt} shows the performance of each property for when predicting SCOP folds.  Among structure based properties we found that $\kappa$ backbone angles had the best performance, both for individual SCOP folds and in terms of its $AUC^{\bf{w}}$ ($0.961$).  Solvent accessibility (SolAcc) values performed the worst out of structure based properties, obtaining the lowest $AUC$ among structure properties for all SCOP folds and in terms of $AUC^{\bf{w}}$ ($0.868$). In general all structure based properties outperformed sequence based properties.  Amongst sequence based properties predicted secondary structures performed the best, especially the predictions that a residue is in a helix ($AUC^{\bf{w}}=0.788$), a loop ($AUC^{\bf{w}}=0.771$), or a sheet ($AUC^{\bf{w}}=0.787$).  Calculated hydrophobicity and VSL2B based predictions of disorder propensity performed the worst ($AUC^{\bf{w}}=0.707$ and $AUC^{\bf{w}}=0.682$ respectively).  As a predictor of disorder PDBDisorder based features performed better than VSL2B ($AUC^{\bf{w}}=0.764$), although this may be based on information leak due to this predictor being trained on PDB data.
+
+ %% TABLE
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\input{Figures/vq/SCOP_table}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{``Catalytic activity"}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+The first column of results in \Cref{tab:vqscopt} show the performance of each property when predicting whether a protein is annotated with the ``catalytic activity" term.  We found that disorder based predictions (VSL2B  $AUC=0.742$ and PDBDisorder $AUC=0.718$) and predicted BFactors ($AUC=0.722$) performed the best, whereas, contrary to their performance in distinguishing between SCOP folds, predicted secondary structures performed the worst (Helix $AUC=0.687$, Loo $AUC=0.698$, and Sheet $AUC=0.681$).
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{``Catalytic activity" subclass}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\Cref{tab:vqscopt} shows the performance of each property when predicting the tested subclasses of ``catalytic activity".  As with predicting ``catalytic activity," predicted BFactors also performed well in predicting ``catalytic activity" subclass.  ($AUC^{\bf{w}}=0.659$).  Predicted secondary structures had mixed performance, with predicted loops obtaining a comparatively high $AUC^{\bf{w}}$ of $0.647$, whereas helix and sheet predictions only achieved a $AUC^{\bf{w}}$ of $0.511$ and $0.621$ respectively.
+
+%% TABLE
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\input{Figures/vq/GO_table}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Combined kernel performance}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{SCOP fold}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%% Figure
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\input{Figures/vq/SCOP_ROC/SCOP_ROC}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{``Catalytic activity"}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{``Catalytic activity" subclass}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+%% Figure
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\input{Figures/vq/GO_SC_ROC/GO_SC_ROC}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%\afterpage{
+%\begin{figure*}[t!htpb]
+%\begin{centering}
+%
+%	\begin{subfigure}[b]{0.75\textwidth}
+%                \centering
+%                \includegraphics[width=\textwidth]{Figures/vq/count_kernel/GO_Enzyme_Bar}
+%                \caption{Catalytic activity}
+%                \label{fig:vqresults1B}
+%        \end{subfigure}%
+%\quad
+%	\begin{subfigure}[b]{0.75\textwidth}
+%                \centering
+%                \includegraphics[width=\textwidth]{Figures/vq/count_kernel/GO_SC_Bar}
+%                \caption{Catalytic activity subclass}
+%                \label{fig:vqresults1C}
+%        \end{subfigure}%
+%
+%
+%\par\end{centering}
+%\caption[Count kernel individual feature performance]{A bar chart showing the $AUC$ (blue) and $F_{\max}$ (red) performance of individual features in the task of GO function prediction.  Only the best performing combinations of $m$ and $n$ for an individual feature according to $AUC$ or $F_{\max}$ are reported.  Results are shown for the task of predicting  ``catalytic activity" GO term (\Cref{fig:vqresults1B}), and ``catalytic activity" subclass (\Cref{fig:vqresults1C}).  }
+%\label{fig:vqresults1}
+%\end{figure*}
+%}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure*}[h!]
+%\begin{centering}
+%\includegraphics[width=.75\textwidth]{Figures/vq/count_kernel/SCOP_Bar}
+%\par\end{centering}
+%\caption[Count based kernel performance predicting SCOP fold]{A bar chart showing the $AUC$ (blue) and $F_{\max}$ (red) performance of individual features. Only the best performing combinations of $m$ and $n$ for an individual feature according to $AUC$ or $F_{\max}$ are reported. }
+%\label{fig:vqscopcount}
+%\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Agreement of $AUC$ and $F_{\max}$}
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%
+%Looking at \Cref{tab:vqgostandardperformance,tab:vqscopstandardperformance} we found strong agreement in the values of $m$ and $n$ at which each feature type achieved its maximum $AUC$ and $F_{\max}$ values for the count based kernel, especially for the prediction of SCOP fold and ``catalytic activity" subclass.  While agreement wasn't as strong for the prediction of ``catalytic activity," differences in optimal $m$ and $n$ values were not drastic; the most notable of which were those determined for the hydrophobicity property feature where $AUC$ found that $m=4096, n=2$ was optimal whereas $F_{\max}$ found that $m=256, n=32$ was optimal.  
+%
+%%There was noticeably less agreement between optimal $m$ and $n$ values designated by $AUC$ and $F_{\max}$ when looking at the similarity augmented count kernel, with the $F_{\max}$ value seeming to favor smaller numbers of centroids for structure based features.  While there is little agreement between these metrics for the similarity augmented count kernel this may be due to the poor overall performance of this kernel.
+%%
+%%Although the sample size for determining agreement in optimal $m$ and $n$ values is smaller for the additive kernel because it was only fully tested on the hydrophobicity sequence property, there are multiple alpha values at which optimal $m$ and $n$ values can be compared.

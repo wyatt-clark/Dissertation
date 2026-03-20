@@ -1,0 +1,31 @@
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Confusion matrix interpretation of $ru$ and $mi$}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+While we introduce remaining uncertainty and misinformation in the context of comparing sub graphs of a larger ontology these two terms can also be intuitively interpreted as the information theoretic analogs of false positives and false negatives or Type I and Type II errors.  If we consider the confusion matrix in \Cref{tab:rumiCONF} we see the four positive outcomes that can occur when attempting to perform binary classification.  False positives (Type I errors) are instances where a data point is a negative example but is incorrectly classified as a positive.  In the context of hypothesis testing these are cases where the null hypothesis is true, but has incorrectly been rejected.  False negatives (Type II errors) represent cases where the data point is a positive, but has incorrectly been labeled as a negative (false negatives).  These are cases where the null hypothesis is false, but a model has failed to reject it.  
+
+Given a set of true terms, $T$, and predicted terms, $P$, then $P\setminus T$ would represent the terms that would fall in the false positive or Type I error portion of the confusion matrix.  As defined in \Cref{eq:miSIMP}, this is the same set of terms whose joint probability, and subsequently information content, are measured when calculating misinformation.  In this context, misinformation can be thought of as the number of bits of information, instead of traditional counts, the false positives represent. Conversely, the if we consider false negatives, or the set of terms defined by $T\setminus P$ we are referring to the same set of terms used to calculate remaining uncertainty in \Cref{eq:ruSIMP}.  
+
+%Table
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table*}[t]
+\caption[A confusion matrix]{A sample confusion matrix showing the four potential outcomes when performing binary classification.
+\label{tab:rumiCONF}}
+{
+\begin{tabular}{l|l|c|c|}
+\multicolumn{2}{c}{}&\multicolumn{2}{c}{True label}\\
+\cline{3-4}
+\multicolumn{2}{c|}{}&Positive & Negative\\
+\cline{2-4}
+\multirow{2}{*}{Predicted label} & Positive & True positives & False positives\\
+\cline{2-4} 
+& Negative & False negatives & True negatives\\
+\cline{2-4}
+\end{tabular}}{}
+
+\end{table*}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%

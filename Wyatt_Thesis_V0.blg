@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Wyatt_Thesis_V0.aux
+The style file: abbrvnat.bst
+Reallocated field_info (elt_size=4) to 10068 items from 5000.
+Database file #1: refdbshort.bib
+You've used 181 entries,
+            2773 wiz_defined-function locations,
+            1700 strings with 36304 characters,
+and the built_in function-call counts, 92522 in all, are:
+= -- 8107
+> -- 5849
+< -- 116
++ -- 1976
+- -- 1795
+* -- 8074
+:= -- 14298
+add.period$ -- 550
+call.type$ -- 181
+change.case$ -- 1111
+chr.to.int$ -- 181
+cite$ -- 362
+duplicate$ -- 3837
+empty$ -- 7317
+format.name$ -- 2091
+if$ -- 19267
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 189
+newline$ -- 913
+num.names$ -- 732
+pop$ -- 2025
+preamble$ -- 1
+purify$ -- 939
+quote$ -- 0
+skip$ -- 3005
+stack$ -- 0
+substring$ -- 4191
+swap$ -- 295
+text.length$ -- 19
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1936
+warning$ -- 0
+while$ -- 798
+width$ -- 0
+write$ -- 2365

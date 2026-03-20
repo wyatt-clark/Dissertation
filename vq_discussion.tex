@@ -1,0 +1,20 @@
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+Several aspects of results show that the VQ kernel holds much potential. The marked improvement in performance compared to the string kernel in predicting SCOP fold indicates that our novel structure properties and VQ kernel are a viable framework for the task of categorizing protein structure. While structure-based properties exhibited superior performance when compared to the string kernel, the same could not be said for sequence-based properties; which underperformed both the string kernel and structure properties in all classification tasks.  There are several explanations for why this was observed.  First, in the task of SCOP fold prediction, it is intuitive that structure based features would outperform all other features.  The general preference of sequence-based properties to prefer lower values of $m$ in the task of SCOP fold prediction may be an indicator that sampled vectors sparsely filled $n$ dimensional space. Sequence properties did perform well when applied to the task of predicting catalytic activity on the NR40 data set, obtaining an $AUC$ of $0.78$ compared to the string kernels $AUC$ of $0.73$ (\Cref{fig:NR40}).  This indicates that when attempting to classify a novel sequence predicted properties may be a better way to encode a protein than simply representing it as a sequence of amino acids.
+
+Traditionally, protein sequences are represented as sequences of letters representing amino acids, or as the coordinates of atoms in 3-dimensional space.  Alignment algorithms such as BLAST \citep{Altschul1997} do not explicitly consider the physiochemical properties associated with each amino acid; it would be a stretch to argue that through substitution matrices such as PAM \citep{Dayhoff1978} and BLOSUM \citep{Henikoff1992} alignment algorithms implicitly encode physiochemical similarities between amino acids.  It could be presumed that much of what these substitution matrices capture is the propensity of one amino acid to transition into another due to physiochemical similarity. Evolutionarily related sequences can diverge at the sequence level yet still retain the same functions. Conversely, similar structures and functions can be carried out by unrelated, and potentially very distant at the sequence level, proteins due to convergent evolution.  In this paper we made a conscious choice to encode proteins; not as a sequence of letters, or 3D coordinates, but explicitly as the physiochemical and structural characteristics associated with those amino acids.  We found that this representation when combined the the VQ framework enable fast and accurate classification of protein sequences, especially when categorizing tertiary structures. 
+
+In addition to proposing a fundamental shift in the way protein sequences and structures are represented, our VQ kernel is robust and can easily be extended to any type of data that can be represented or transformed into a time-series representation.  While the focus of this project was on the development of novel representations of proteins and the testing of the basic VQ concept, potentially large improvements in performance might be obtained by fine tuning parameters and implementing more advanced clustering and learning algorithms.  Specifically, structured learning methods should improve performance when performing multi-label classification as in the case of predicting protein function.
+%\subsection{Performance of sequence-based properties}
+
+
+%\subsection{
+
+
+
+
+

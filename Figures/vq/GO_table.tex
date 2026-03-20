@@ -1,0 +1,72 @@
+%\begin{centering}
+%\begin{landscape}
+
+%\begin{table*}[htbp]
+\clearpage
+\begin{sidewaystable}[H]
+
+\vspace*{5in}
+\begin{centering}
+\resizebox{\textheight}{!}{
+
+
+
+
+		\begin{tabular}{|l||rrc||rrc|rrc|rrc|rrc|rrc|rrc||rrc||}
+		\hline
+		\multirow{2}{*}{Property\textbackslash Category} & \multicolumn{3}{c||}{catalytic activity} & \multicolumn{3}{c|}{oxidoreductase activity}& \multicolumn{3}{c|}{transferase activity}& \multicolumn{3}{c|}{hydrolase activity}& \multicolumn{3}{c|}{lyase activity}& \multicolumn{3}{c|}{isomerase activity} & \multicolumn{3}{c||}{ligase activity} & \multicolumn{3}{c||}{$AUC^{\bf{w}}$} \\
+		\cline{2-25}
+		 & $m$ & $n$ & $AUC$ & $m$ & $n$ & $AUC$ & $m$ & $n$ & $AUC$ & $m$ & $n$ & $AUC$ & $m$ & $n$ & $AUC$ & $m$ & $n$ & $AUC$ & $m$ & $n$ & $AUC$ & $m$ & $n$ & $AUC^{\bf{w}}$\\
+		\hline
+		\hline
+		B-factors & 256 & 32 & 0.722 & 4,096 & 32 & 0.709& 4,096 & 32 & 0.644& 4,096 & 32 & 0.630& 4,096 & 4 & 0.688& 4,096 & 32 & 0.738& 4,096 & 32 & 0.671 & -- & -- & 0.659\\
+		Helix & 256 & 8 & 0.687 & 4,096 & 8 & 0.634& 4,096 & 32 & 0.603& 4,096 & 32 & 0.600& 4,096 & 32 & 0.644& 4,096 & 32 & 0.665& 4,096 & 8 & 0.595 & -- & -- & 0.611\\
+		Hydrophobicity & 4,096 & 2 & 0.701 & 4,096 & 16 & 0.695& 4,096 & 16 & 0.622& 4,096 & 32 & 0.653& 4,096 & 4 & 0.692& 4,096 & 16 & 0.722& 4,096 & 32 & 0.638 & -- & -- & 0.653\\
+		Loop & 256 & 32 & 0.698 & 4,096 & 32 & 0.678& 4,096 & 32 & 0.642& 4,096 & 32 & 0.628& 4,096 & 32 & 0.664& 4,096 & 32 & 0.712& 4,096 & 32 & 0.638 & -- & -- & 0.647\\
+		PDBDisorder & 256 & 32 & 0.718 & 4,096 & 32 & 0.683& 4,096 & 32 & 0.645& 4,096 & 16 & 0.640& 4,096 & 32 & 0.676& 4,096 & 32 & 0.717& 4,096 & 16 & 0.635 & -- & -- & 0.65\\
+		Sheet & 256 & 4 & 0.681 & 4,096 & 32 & 0.651& 4,096 & 32 & 0.612& 4,096 & 32 & 0.606& 4,096 & 32 & 0.649& 4,096 & 32 & 0.683& 1,024 & 32 & 0.611 & -- & -- & 0.621\\
+		VSL2B & 256 & 16 & 0.742 & 1,024 & 32 & 0.661& 4,096 & 16 & 0.594& 4,096 & 32 & 0.614& 4,096 & 32 & 0.638& 4,096 & 32 & 0.680& 1,024 & 8 & 0.630 & -- & -- & 0.620\\
+		\hline
+		\hline
+		String Kernel & -- & 5 &0.857 & -- & 5 & 0.949& -- & 6 & 0.928& -- & 6 & 0.934& -- & 6 & 0.929& -- & 5 & 0.920& -- & 5 & 0.910 & -- & -- & 0.930\\
+
+
+		Combined & 256 & 16 & 0.776 & 4,096 & 32 & 0.805 & 4,096 & 32 & 0.753 & 4,096 & 32 & 0.754 & 4,096 & 32 & 0.779 & 4,096 & 32 & 0.816 & 4,096 & 32 & 0.763 & 4,096 & 32 & 0.767\\
+		Combined + SK & -- & -- & 0.781 & -- & -- & 0.805 & -- & -- & 0.753 & -- & -- & 0.754 & -- & -- & 0.779 & -- & -- & 0.816 & -- & -- & 0.763 & -- & -- & 0.767\\
+		\hline
+		\hline
+		%$NR_{40}$ String Kernel & -- & 5 & ca auc & 4,096 & 32 & 0.203 & -- & -- & 0.179 & -- & -- & 0.181 & -- & -- & 0.216 & -- & -- & 0.230 & -- & -- & 0.195 & -- & -- & 0.189\\
+		%$NR_{40}$ String Kernel & CA m & CA n & ca auc & -- & -- & 0.712 & -- & -- & 0.663 & -- & -- & 0.718 & -- & -- & 0.711 & -- & -- & 0.733 & -- & -- & 0.636 & -- & -- & 0.694\\
+
+		%$NR_{40}$ Combined & 256 & 16 & ca auc & 4,096 & 32 & 0.299 & 4,096 & 32 & 0.415 & 4,096 & 32 & 0.416 & 4,096 & 32 & 0.207 & 4,096 & 32 & 0.187 & 4,096 & 32& 0.178 & 4,096 & 32& 0.357\\
+		%$NR_{40}$ Combined & CA m & CA n & ca auc & -- & -- & 0.622 & -- & -- & 0.583 & -- & -- & 0.600 & -- & -- & 0.612 & -- & -- & 0.602 & -- & -- & 0.548 & -- & -- & 0.596\\
+
+		%$NR_{40}$ Combined + SK & -- & -- & ca auc & -- & -- & 0.273 & -- & -- & 0.397 & -- & -- & 0.394 & -- & -- & 0.205 & -- & -- & 0.188 & -- & -- & 0.179 & -- & -- & 0.340\\
+		%$NR_{40}$ Combined + SK & CA m & CA n & ca auc & -- & -- & 0.627 & -- & -- & 0.589 & -- & -- & 0.606 & -- & -- & 0.619 & -- & -- & 0.602 & -- & -- & 0.552 & -- & -- & 0.601\\
+
+		\hline
+		\hline
+		
+		$NR_{40}$ String Kernel & -- & 5 & 0.733 & -- & -- & 0.733 & -- & -- & 0.619 & -- & -- & 0.612 & -- & -- & 0.725 & -- & -- & 0.669 & -- & -- & 0.668 & -- & -- & 0.649\\
+		$NR_{40}$ Combined & 256 & 16 & 0.775 & 4,096 & 32 & 0.681 & 4,096 & 32 & 0.560 & 4,096 & 32 & 0.545 & 4,096 & 32 & 0.617 & 4,096 & 32 & 0.641 & 4,096 & 32 & 0.570 & 4,096 & 32 & 0.583\\
+		$NR_{40}$ Combined + SK & -- & -- & 0.775 & -- & -- & 0.681 & -- & -- & 0.559 & -- & -- & 0.548 & -- & -- & 0.629 & -- & -- & 0.649 & -- & -- & 0.574 & -- & -- & 0.585\\
+
+
+		\hline
+				
+	\end{tabular}
+	%\end{minipage}
+}
+
+\caption[Optimal property based feature performance when predicting ``catalytic activity" subclass.]{Optimal performance, according to $AUC$, of each property based feature when predicting ``catalytic activity" subclass.  For each property feature the combination of $m$ and $n$ values that obtained the highest $AUC$ for an individual ``catalytic activity" subclass are reported.}
+
+\label{tab:vqgot}
+
+\end{centering}
+%\end{table*}
+%\end{sideways}
+\end{sidewaystable}
+%\end{landscape}
+
+
+

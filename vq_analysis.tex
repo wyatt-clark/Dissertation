@@ -1,0 +1,47 @@
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Model Evaluation}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsection{$AUC$ }
+
+For each binary classification experiment we calculated the area under the receiver operating characteristic ($AUC$) .  In order to do this predictor scores were first normalized to fall between the range of $[0,1]$.  A decision threshold, $\tau$, was varied from $0$ to $1$ in increments of $.01$.  At each threshold sensitivity ($sn_{\tau}$) and specificity ($sp_{\tau}$) were calculated.  The $AUC$ of a model was then calculated using the trapezoid rule as 
+
+\[
+AUC = \sum_{\tau \in \mathcal{T}} sp_{\tau} - sp_{\tau -.01}  \frac{ sn_{\tau} - sn_{\tau -.01} }{2}
+\]
+where $\mathcal{T}$ defines the set of thresholds, $\tau$ ranging from $0$ to $1$ in increments of $.01$.
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Weighted $AUC$ }
+\label{sec:vqweightedmetrics}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+While we evaluated each feature type for a combination of window size and number of clusters on each classification task separately we also desired to obtain a single value that could be used to benchmark each combination of parameters on all evaluated SCOP classes. In order to do this we averaged $AUC$ across multiple one-vs-all classification tasks. While it would be simple to merely average the $AUC$ values for each SCOP fold; if, for example, a fold class has few positive examples relative to others it will disproportionately influence the average.
+
+In order to account for class imbalances between each SCOP fold we utilized a weighted method for calculating $AUC$, $AUC^{\bf{w}}$.  If we have a set of classes $C=\{c_{1},c_{2}..c_{n}\}$ on which binary-predictions were carried out, with associated counts of positive data-points $N=\{n_{1},n_{2}...n_{n}\}$ and associated $AUC$ values $AUC=\{auc_{1},auc_{2}...auc_{n}\}$ we calculate the weighted average AUC, as 
+
+\[
+AUC^{\bf{w}}=\frac{\underset{i=1..n}{\sum}n_{i}\times auc_{i}}{\underset{i=1..n}{\sum}n_{i}}
+\]
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Signal to noise ratio}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+%Because the window length $n$, and number of centroids $m$, can take on a potentially large number of values the optimization space for these parameters can be reduced by creating a metric to justify one value over another. Parameter value reduction can be carried out by calculating the signal-to-noise ratio ($SNR$)  for a property for each value of $m$ and $n$. 
+
+We also calculated the signal-to-noise ration ($SNR$) obtained when encoding and decoding property based representations of proteins using VQ. Given an original property vector $\mathbf{p}$ and the encoded, the reconstructed version of this vector $\hat{\mathbf{p}}$ the signal to noise ratio was calculated using the logarithmic decibel scale as 
+
+\[
+SNR_{dB}(\mathbf{p},\hat{\mathbf{p}})=\log_{10}\left(\frac{\sum\limits _{i=1}^{\ell}p_{i}^{2}}{\sum\limits _{i=1}^{\ell}(p_{i}-\hat{p}_{i})^{2}}\right)
+\]
+On this scale one decibel signifies that the noise (or squared difference between the original and reconstructed signal) represents $^{1}/_{10}$-th of the signal. $SNR$ represents the amount of information lost when a property is encoded and decoded using VQ.
+
+%By detecting a general trend in the relationship between the $SNR$ obtained using certain parameters and the performance of the predictor the parameter search space can not only be reduced, but better predictor performance can be obtained in a shorter amount of time.

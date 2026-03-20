@@ -1,0 +1,56 @@
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Model Evaluation}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsection{$AUC$ and $F_{max}$}
+
+For each binary classification experiment we calculated the area under the receiver operating characteristic ($AUC$) as well as the maximum f-measure ($F_{max}$).  In order to do this predictor scores were first normalized to fall between the range of $[0,1]$.  A decision threshold, $\tau$, was varied from $0$ to $1$ in increments of $.01$.  At each threshold precision ($pr_{\tau}$), recall ($rc_{\tau}$) and specificity ($sp_{\tau}$) were calculated.  The f-measure for a particular $\tau$ was calculated as
+\[
+F\tau = 2\times \frac{pr_{\tau}\times rc_{\tau}}{pr_{\tau}+rc_{\tau}}.
+\]
+The $F_{max}$ value was then calculated as the maximum f-measure across all thresholds
+\[
+F_{\max}=\underset{\tau}{\max}\left\{ F_{\tau} \right\}
+\]
+
+We calculated the $AUC$ of a model using the trapezoid rule as 
+\[
+AUC = \sum_{\tau \in \mathcal{T}} sp_{\tau} - sp_{\tau -.01}  \frac{ rc_{\tau} - rc_{\tau -.01} }{2}
+\]
+where $\mathcal{T}$ defines the set of thresholds, $\tau$ ranging from $0$ to $1$ in increments of $.01$.
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Weighted $AUC$ and $F_{max}$}
+\label{sec:vqweightedmetrics}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+While we evaluated each feature type for a combination of window size and number of clusters on each classification task separately we also desired to obtain a single value to be used to benchmark each combination of parameters on all evaluated SCOP classes as well as all ``catalytic activity" subclass in unison.  In order to do this we average both $F_{max}$ and $AUC$ across multiple one-vs-all classification tasks. This was done for the task of predicting SCOP fold and ``catalytic activity" subclass separately. We evaluated the prediction of ``catalytic activity" separately, which did not necessitate averaging performance. 
+
+In order to account for class imbalances for each predictor we utilized a weighted method for calculating $AUC$ and $F_{max}$ scores. For example, because an individual predictor was built for each SCOP fold class, predictor performances for a particular feature have to be combined in some fashion to obtain a single value for that feature. While it would be simple to merely average the $AUC$ values for each SCOP fold; if, for example, there was one fold class that had only a few positive examples relative to the other SCOP folds the performance on this particular SCOP fold would influence the resulting average value disproportionately to the number of data-points it represents.
+
+In order to account for the uneven distribution of proteins among SCOP folds, or enzyme sub-classes average $AUC$ and $F_{max}$ was weighted according to the number of data-points in each class. If we have a set of classes $C=\{c_{1},c_{2}..c_{n}\}$ on which binary-predictions were carried out, with associated counts of positive data-points $N=\{n_{1},n_{2}...n_{n}\}$ and associated $AUC$ values $AUC=\{auc_{1},auc_{2}...auc_{n}\}$ we calculate the weighted average AUC, as 
+
+\[
+\overline{AUC}_{weighted}=\frac{\underset{i=1..n}{\sum}n_{i}\times auc_{i}}{\underset{i=1..n}{\sum}n_{i}}
+\]
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Signal to noise ratio}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+Because the window length $n$, and number of centroids $m$, can take on a potentially large number of values the optimization space for these parameters can be reduced by creating a metric to justify one value over another. Parameter value reduction can be carried out by calculating the signal-to-noise ($SNR$) ratio for a property for each value of $m$ and $n$. The $SNR$ for a particular sequence property would represent the amount of loss of information obtained when a property is encoded and decoded using VQ. Given an original property vector $\mathbf{p}$ and the encoded, the reconstructed version of this vector $\hat{\mathbf{p}}$ the signal to noise ratio would then be calculated using the logarithmic decibel scale as 
+
+\[
+SNR_{dB}(\mathbf{p},\hat{\mathbf{p}})=\log_{10}\left(\frac{\sum\limits _{i=1}^{\ell}p_{i}^{2}}{\sum\limits _{i=1}^{\ell}(p_{i}-\hat{p}_{i})^{2}}\right)
+\]
+On this scale one decibel signifies that the noise (or squared difference between the original and reconstructed signal) represents $^{1}/_{10}$-th
+of the signal.
+
+By detecting a general trend in the relationship between the SNR obtained using certain parameters and the performance of the predictor the parameter search space can not only be reduced, but better predictor performance can be obtained in a shorter amount of time.

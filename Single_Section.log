@@ -1,0 +1,1023 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  22 MAY 2013 12:53
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Single_Section.tex
+(./Single_Section.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(./iuthesis.cls
+Document Class: iuthesis 
+<< Class 'iuthesis', v1.2.0.23, 1999/06/04(N. Danner) >>
+\IUT@abstype=\count79
+\IUT@nmlabstract=\count80
+\IUT@umiabstract=\count81
+\IUT@ugsabstract=\count82
+
+ iuthesis option: abstractsigs  iuthesis option: draft  iuthesis option: final
+(./amsbook.cls
+Document Class: amsbook 2009/07/02 v2.20.1
+\linespacing=\dimen102
+\normalparindent=\dimen103
+\normaltopskip=\skip41
+
+Class iuthesis Warning: When the draft option is used, the \includegraphics
+(iuthesis)              command will print blank placeholder boxes
+(iuthesis)              for the graphics.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip42
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen104
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count83
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count84
+\leftroot@=\count85
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count86
+\DOTSCASE@=\count87
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count88
+\c@MaxMatrixCols=\count89
+\dotsspace@=\muskip10
+\c@parentequation=\count90
+\dspbrk@lvl=\count91
+\tag@help=\toks15
+\row@=\count92
+\column@=\count93
+\maxfields@=\count94
+\andhelp@=\toks16
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks17
+\multlinegap=\skip43
+\multlinetaggap=\skip44
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 367.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+\copyins=\insert233
+\abstractbox=\box28
+\listisep=\skip45
+\c@part=\count95
+\c@chapter=\count96
+\c@section=\count97
+\c@subsection=\count98
+\c@subsubsection=\count99
+\c@paragraph=\count100
+\c@subparagraph=\count101
+\c@figure=\count102
+\c@table=\count103
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\captionindent=\dimen113
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip48
+\thm@postskip=\skip49
+\thm@headsep=\skip50
+\dth@everypar=\toks24
+)
+\dedicationbox=\box29
+\acknowledgebox=\box30
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count104
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen116
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks26
+\extratabsurround=\skip51
+\backup@length=\skip52
+)
+\everycr=\toks27
+\minrowclearance=\skip53
+)
+\rownum=\count105
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2010/01/09 v3.1m Customizing captions (AR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
+\captionmargin=\dimen119
+\captionmargin@=\dimen120
+\captionwidth=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
+)
+Package caption Info: AMS or SMF document class.
+\c@ContinuedFloat=\count106
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2008/08/31 v1.0b Adding subcaptions (AR)
+\c@subfigure=\count107
+\c@subtable=\count108
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count109
+\U@D=\dimen125
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language75
+LaTeX Info: Redefining \_ on input line 43.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2011/04/17 v6.82g Hypertext links for LaTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
+Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
+Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+)
+\@linkdim=\dimen126
+\Hy@linkcounter=\count110
+\Hy@pagecounter=\count111
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2011/04/17 v6.82g Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count112
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `final' set `true' on input line 3905.
+Package hyperref Info: Hyper figures OFF on input line 4026.
+Package hyperref Info: Link nesting OFF on input line 4031.
+Package hyperref Info: Hyper index ON on input line 4034.
+Package hyperref Info: Plain pages OFF on input line 4041.
+Package hyperref Info: Backreferencing OFF on input line 4046.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4264.
+\c@Hy@tempcnt=\count113
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4617.
+\Fld@menulength=\count114
+\Field@Width=\dimen127
+\Fld@charsize=\dimen128
+Package hyperref Info: Hyper figures OFF on input line 5701.
+Package hyperref Info: Link nesting OFF on input line 5706.
+Package hyperref Info: Hyper index ON on input line 5709.
+Package hyperref Info: backreferencing OFF on input line 5716.
+Package hyperref Info: Link coloring OFF on input line 5721.
+Package hyperref Info: Link coloring with OCG OFF on input line 5726.
+Package hyperref Info: PDF/A mode OFF on input line 5731.
+LaTeX Info: Redefining \ref on input line 5771.
+LaTeX Info: Redefining \pageref on input line 5775.
+\Hy@abspage=\count115
+\c@Item=\count116
+\c@Hfootnote=\count117
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2011/04/17 v6.82g Hyperref driver for pdfTeX
+\Fld@listcount=\count118
+\c@bookmark@seq@number=\count119
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip54
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2011/03/22 v0.17.9 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2157.
+LaTeX Info: Redefining \cref on input line 2157.
+LaTeX Info: Redefining \Cref on input line 2157.
+LaTeX Info: Redefining \crefrange on input line 2157.
+LaTeX Info: Redefining \Crefrange on input line 2157.
+Package cleveref Info: `amsthm' support loaded on input line 2300.
+Package cleveref Info: loaded `english' language definitions on input line 5499
+.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip55
+\bibsep=\skip56
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count120
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
+\AP@output=\toks28
+\AP@partial=\box31
+\AP@footins=\box32
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip57
+\LTright=\skip58
+\LTpre=\skip59
+\LTpost=\skip60
+\LTchunksize=\count121
+\LTcapwidth=\dimen129
+\LT@head=\box33
+\LT@firsthead=\box34
+\LT@foot=\box35
+\LT@lastfoot=\box36
+\LT@cols=\count122
+\LT@rows=\count123
+\c@LT@tables=\count124
+\c@LT@chunks=\count125
+\LT@p@ftn=\toks29
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/rotfloat/rotfloat.sty
+Package: rotfloat 2004/01/04 v1.2 Combining float+rotating package (AS)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count126
+\float@exts=\toks30
+\float@box=\box37
+\@float@everytoks=\toks31
+\@floatcapt=\box38
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count127
+\rotFPtop=\skip61
+\rotFPbot=\skip62
+\rot@float@box=\box39
+\rot@mess@toks=\toks32
+)
+Package rotfloat Info: float package v1.3 detected on input line 74.
+)
+\bibstyle{abbrvnat}
+Package hyperref Info: Option `final' set `true' on input line 44.
+Package hyperref Info: Option `colorlinks' set `true' on input line 44.
+(./Single_Section.aux
+
+LaTeX Warning: Label `fig:ocS1A' multiply defined.
+
+
+LaTeX Warning: Label `cref@fig:ocS1A' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ocS1A' multiply defined.
+
+
+LaTeX Warning: Label `cref@sub@fig:ocS1A' multiply defined.
+
+
+LaTeX Warning: Label `fig:ocS1B' multiply defined.
+
+
+LaTeX Warning: Label `cref@fig:ocS1B' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ocS1B' multiply defined.
+
+
+LaTeX Warning: Label `cref@sub@fig:ocS1B' multiply defined.
+
+)
+\openout1 = `Single_Section.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Try loading font information for U+msa on input line 81.
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count128
+\scratchdimen=\dimen130
+\scratchbox=\box40
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen131
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks34
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box41
+Package hyperref Info: Link coloring ON on input line 81.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count134
+)
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
+
+(./Single_Section.out) (./Single_Section.out)
+\@outlinefile=\write3
+\openout3 = `Single_Section.out'.
+
+ (./vq.tex
+Chapter 1
+(./vq_intro.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+
+
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Figures/VQ/TimeSeries/TimeSeries.tex
+Package epstopdf Info: Source file: <Figures/VQ/TimeSeries/Kappa.eps>
+(epstopdf)                    date: 2013-05-13 16:29:46
+(epstopdf)                    size: 128090 bytes
+(epstopdf)             Output file: <Figures/VQ/TimeSeries/Kappa-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2013-05-13 16:42:32
+(epstopdf)                    size: 7567 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/VQ/TimeSeries/Kappa
+-eps-converted-to.pdf Figures/VQ/TimeSeries/Kappa.eps>
+(epstopdf)             \includegraphics on input line 8.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/VQ/TimeSeries/Kappa-eps-converted-to.pdf, id=197, 387.4475pt x 139.521
+26pt>
+File: Figures/VQ/TimeSeries/Kappa-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/VQ/TimeSeries/Kappa-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/VQ/TimeSeries/Kappa-eps-converted-to.pdf used 
+on input line 8.
+(pdftex.def)             Requested size: 173.44534pt x 62.45825pt.
+Package epstopdf Info: Source file: <Figures/VQ/TimeSeries/Alpha.eps>
+(epstopdf)                    date: 2013-05-13 16:29:46
+(epstopdf)                    size: 128120 bytes
+(epstopdf)             Output file: <Figures/VQ/TimeSeries/Alpha-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2013-05-13 16:42:32
+(epstopdf)                    size: 7587 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/VQ/TimeSeries/Alpha
+-eps-converted-to.pdf Figures/VQ/TimeSeries/Alpha.eps>
+(epstopdf)             \includegraphics on input line 15.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/VQ/TimeSeries/Alpha-eps-converted-to.pdf, id=198, 387.4475pt x 139.521
+26pt>
+File: Figures/VQ/TimeSeries/Alpha-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/VQ/TimeSeries/Alpha-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/VQ/TimeSeries/Alpha-eps-converted-to.pdf used 
+on input line 15.
+(pdftex.def)             Requested size: 173.44534pt x 62.45825pt.
+Package epstopdf Info: Source file: <Figures/VQ/TimeSeries/Phi.eps>
+(epstopdf)                    date: 2013-05-13 16:29:48
+(epstopdf)                    size: 128106 bytes
+(epstopdf)             Output file: <Figures/VQ/TimeSeries/Phi-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2013-05-13 16:42:32
+(epstopdf)                    size: 7577 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/VQ/TimeSeries/Phi-e
+ps-converted-to.pdf Figures/VQ/TimeSeries/Phi.eps>
+(epstopdf)             \includegraphics on input line 23.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/VQ/TimeSeries/Phi-eps-converted-to.pdf, id=199, 387.4475pt x 139.52126
+pt>
+File: Figures/VQ/TimeSeries/Phi-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/VQ/TimeSeries/Phi-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/VQ/TimeSeries/Phi-eps-converted-to.pdf used on
+ input line 23.
+(pdftex.def)             Requested size: 173.44534pt x 62.45825pt.
+Package epstopdf Info: Source file: <Figures/VQ/TimeSeries/Psi.eps>
+(epstopdf)                    date: 2013-05-13 16:29:48
+(epstopdf)                    size: 128127 bytes
+(epstopdf)             Output file: <Figures/VQ/TimeSeries/Psi-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2013-05-13 16:42:32
+(epstopdf)                    size: 7592 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/VQ/TimeSeries/Psi-e
+ps-converted-to.pdf Figures/VQ/TimeSeries/Psi.eps>
+(epstopdf)             \includegraphics on input line 30.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/VQ/TimeSeries/Psi-eps-converted-to.pdf, id=200, 387.4475pt x 139.52126
+pt>
+File: Figures/VQ/TimeSeries/Psi-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/VQ/TimeSeries/Psi-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/VQ/TimeSeries/Psi-eps-converted-to.pdf used on
+ input line 30.
+(pdftex.def)             Requested size: 173.44534pt x 62.45825pt.
+Package epstopdf Info: Source file: <Figures/VQ/TimeSeries/Helix.eps>
+(epstopdf)                    date: 2013-05-13 16:29:50
+(epstopdf)                    size: 113086 bytes
+(epstopdf)             Output file: <Figures/VQ/TimeSeries/Helix-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2013-05-13 16:42:32
+(epstopdf)                    size: 6497 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/VQ/TimeSeries/Helix
+-eps-converted-to.pdf Figures/VQ/TimeSeries/Helix.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/VQ/TimeSeries/Helix-eps-converted-to.pdf, id=201, 381.425pt x 139.5212
+6pt>
+File: Figures/VQ/TimeSeries/Helix-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/VQ/TimeSeries/Helix-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/VQ/TimeSeries/Helix-eps-converted-to.pdf used 
+on input line 38.
+(pdftex.def)             Requested size: 173.44534pt x 63.44394pt.
+Package epstopdf Info: Source file: <Figures/VQ/TimeSeries/SolAcc.eps>
+(epstopdf)                    date: 2013-05-13 16:29:50
+(epstopdf)                    size: 112644 bytes
+(epstopdf)             Output file: <Figures/VQ/TimeSeries/SolAcc-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2013-05-13 16:42:32
+(epstopdf)                    size: 6220 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/VQ/TimeSeries/SolAc
+c-eps-converted-to.pdf Figures/VQ/TimeSeries/SolAcc.eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/VQ/TimeSeries/SolAcc-eps-converted-to.pdf, id=202, 377.41pt x 140.525p
+t>
+File: Figures/VQ/TimeSeries/SolAcc-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use Figures/VQ/TimeSeries/SolAcc-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/VQ/TimeSeries/SolAcc-eps-converted-to.pdf used
+ on input line 45.
+(pdftex.def)             Requested size: 173.44534pt x 64.5801pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]))
+(./vq_methods.tex [3 <./Figures/VQ/TimeSeries/Kappa-eps-converted-to.pdf> <./Fi
+gures/VQ/TimeSeries/Alpha-eps-converted-to.pdf> <./Figures/VQ/TimeSeries/Phi-ep
+s-converted-to.pdf> <./Figures/VQ/TimeSeries/Psi-eps-converted-to.pdf> <./Figur
+es/VQ/TimeSeries/Helix-eps-converted-to.pdf> <./Figures/VQ/TimeSeries/SolAcc-ep
+s-converted-to.pdf>] [4] [5] [6]) (./vq_experiments_and_data.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `bairoch2005universal' on page 7 undefined on 
+input line 29.
+
+[7]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 52.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 52.
+
+[8] [9]
+Package epstopdf Info: Source file: <Figures/VQ/phi_psi.eps>
+(epstopdf)                    date: 2013-05-16 11:58:37
+(epstopdf)                    size: 810662 bytes
+(epstopdf)             Output file: <Figures/VQ/phi_psi-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-16 12:00:53
+(epstopdf)                    size: 58615 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/VQ/phi_psi-eps-conv
+erted-to.pdf Figures/VQ/phi_psi.eps>
+(epstopdf)             \includegraphics on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/VQ/phi_psi-eps-converted-to.pdf, id=386, 572.1375pt x 251.94125pt>
+File: Figures/VQ/phi_psi-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/VQ/phi_psi-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/VQ/phi_psi-eps-converted-to.pdf used on input 
+line 99.
+(pdftex.def)             Requested size: 173.44534pt x 76.37488pt.
+
+<Figures/VQ/kappa_alpha.pdf, id=387, 489.92085pt x 485.62334pt>
+File: Figures/VQ/kappa_alpha.pdf Graphic file (type pdf)
+
+<use Figures/VQ/kappa_alpha.pdf>
+Package pdftex.def Info: Figures/VQ/kappa_alpha.pdf used on input line 106.
+(pdftex.def)             Requested size: 129.17055pt x 128.0374pt.
+
+
+LaTeX Warning: Reference `fig:phipsibackbone' on page 1 undefined on input line
+ 112.
+
+
+LaTeX Warning: Reference `fig:kappaalphabackbone' on page 1 undefined on input 
+line 112.
+
+
+LaTeX Warning: Reference `fig:phipsibackbone' on page 1 undefined on input line
+ 112.
+
+
+LaTeX Warning: Reference `fig:kappaalphabackbone' on page 1 undefined on input 
+line 112.
+
+
+LaTeX Warning: Reference `fig:phipsibackbone' on page 1 undefined on input line
+ 119.
+
+
+LaTeX Warning: Reference `fig:kappaalphabackbone' on page 1 undefined on input 
+line 119.
+
+[10 <./Figures/VQ/phi_psi-eps-converted-to.pdf> <./Figures/VQ/kappa_alpha.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 134.
+
+) (./vq_results.tex [11] (./Figures/VQ/SCOP_table.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+)
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
+ [12]
+(./Figures/VQ/SCOP_ROC/SCOP_ROC.tex
+Package epstopdf Info: Source file: <Figures/vq/SCOP_ROC/all_alpha_ROC.eps>
+(epstopdf)                    date: 2013-04-16 11:39:10
+(epstopdf)                    size: 10239 bytes
+(epstopdf)             Output file: <Figures/vq/SCOP_ROC/all_alpha_ROC-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2013-04-16 11:39:52
+(epstopdf)                    size: 8258 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/vq/SCOP_ROC/all_alp
+ha_ROC-eps-converted-to.pdf Figures/vq/SCOP_ROC/all_alpha_ROC.eps>
+(epstopdf)             \includegraphics on input line 5.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/vq/SCOP_ROC/all_alpha_ROC-eps-converted-to.pdf, id=528, 255.95625pt x 
+252.945pt>
+File: Figures/vq/SCOP_ROC/all_alpha_ROC-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use Figures/vq/SCOP_ROC/all_alpha_ROC-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/vq/SCOP_ROC/all_alpha_ROC-eps-converted-to.pdf
+ used on input line 5.
+(pdftex.def)             Requested size: 86.72267pt x 85.70296pt.
+Package epstopdf Info: Source file: <Figures/vq/SCOP_ROC/all_beta_ROC.eps>
+(epstopdf)                    date: 2013-04-16 11:39:14
+(epstopdf)                    size: 9981 bytes
+(epstopdf)             Output file: <Figures/vq/SCOP_ROC/all_beta_ROC-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2013-04-16 11:39:52
+(epstopdf)                    size: 8076 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/vq/SCOP_ROC/all_bet
+a_ROC-eps-converted-to.pdf Figures/vq/SCOP_ROC/all_beta_ROC.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/vq/SCOP_ROC/all_beta_ROC-eps-converted-to.pdf, id=529, 255.95625pt x 2
+52.945pt>
+File: Figures/vq/SCOP_ROC/all_beta_ROC-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use Figures/vq/SCOP_ROC/all_beta_ROC-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/vq/SCOP_ROC/all_beta_ROC-eps-converted-to.pdf 
+used on input line 12.
+(pdftex.def)             Requested size: 86.72267pt x 85.70296pt.
+Package epstopdf Info: Source file: <Figures/vq/SCOP_ROC/alpha_div_beta_ROC.eps
+>
+(epstopdf)                    date: 2013-04-16 11:39:14
+(epstopdf)                    size: 10221 bytes
+(epstopdf)             Output file: <Figures/vq/SCOP_ROC/alpha_div_beta_ROC-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2013-04-16 11:39:54
+(epstopdf)                    size: 8532 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/vq/SCOP_ROC/alpha_d
+iv_beta_ROC-eps-converted-to.pdf Figures/vq/SCOP_ROC/alpha_div_beta_ROC.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/vq/SCOP_ROC/alpha_div_beta_ROC-eps-converted-to.pdf, id=530, 255.95625
+pt x 252.945pt>
+File: Figures/vq/SCOP_ROC/alpha_div_beta_ROC-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use Figures/vq/SCOP_ROC/alpha_div_beta_ROC-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/vq/SCOP_ROC/alpha_div_beta_ROC-eps-converted-t
+o.pdf used on input line 19.
+(pdftex.def)             Requested size: 86.72267pt x 85.70296pt.
+Package epstopdf Info: Source file: <Figures/vq/SCOP_ROC/alpha_plus_beta_ROC.ep
+s>
+(epstopdf)                    date: 2013-04-16 11:39:14
+(epstopdf)                    size: 10000 bytes
+(epstopdf)             Output file: <Figures/vq/SCOP_ROC/alpha_plus_beta_ROC-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2013-04-16 11:39:54
+(epstopdf)                    size: 8350 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/vq/SCOP_ROC/alpha_p
+lus_beta_ROC-eps-converted-to.pdf Figures/vq/SCOP_ROC/alpha_plus_beta_ROC.eps>
+(epstopdf)             \includegraphics on input line 26.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/vq/SCOP_ROC/alpha_plus_beta_ROC-eps-converted-to.pdf, id=531, 255.9562
+5pt x 252.945pt>
+File: Figures/vq/SCOP_ROC/alpha_plus_beta_ROC-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use Figures/vq/SCOP_ROC/alpha_plus_beta_ROC-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/vq/SCOP_ROC/alpha_plus_beta_ROC-eps-converted-
+to.pdf used on input line 26.
+(pdftex.def)             Requested size: 86.72267pt x 85.70296pt.
+))
+(./vq_discussion.tex) (./vq_supplemental.tex)) (./Single_Section.bbl [13 <./Fig
+ures/vq/SCOP_ROC/all_alpha_ROC-eps-converted-to.pdf> <./Figures/vq/SCOP_ROC/all
+_beta_ROC-eps-converted-to.pdf> <./Figures/vq/SCOP_ROC/alpha_div_beta_ROC-eps-c
+onverted-to.pdf> <./Figures/vq/SCOP_ROC/alpha_plus_beta_ROC-eps-converted-to.pd
+f>] [14]
+Bibliography
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
+
+
+])
+No file Single_Section.ind.
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+[16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+ (./Single_Section.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+
+
+Package rerunfilecheck Warning: File `Single_Section.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Single_Section.out':
+(rerunfilecheck)             Before: 66A18060227608C67A98296582EA6674;2980
+(rerunfilecheck)             After:  062142F041AE6D2B406699E520C271A1;2003.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
+ ) 
+Here is how much of TeX's memory you used:
+ 10577 strings out of 493633
+ 167292 string characters out of 3143378
+ 326539 words of memory out of 3000000
+ 13416 multiletter control sequences out of 15000+200000
+ 13719 words of font info for 53 fonts, out of 3000000 for 9000
+ 993 hyphenation exceptions out of 8191
+ 41i,13n,38p,1533b,538s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{table.caption.5} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.3} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix*.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.8.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.8.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.8.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.6.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.6.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.6.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.8} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.4.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.7} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.4.1.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.4.1.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.4.1.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.3.5.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.3.5.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.3.5.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.3.4.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.3.4.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></us
+r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/
+local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/l
+ocal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/lo
+cal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/loc
+al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local
+/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/t
+exlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/tex
+live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
+/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2
+011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2011
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2011/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2011/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2011/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2011/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Single_Section.pdf (16 pages, 482247 bytes).
+PDF statistics:
+ 672 PDF objects out of 1000 (max. 8388607)
+ 552 compressed objects within 6 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 357 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,138 @@
+\def\fileversion{1.2.0.23}
+\def\filedate{2013/04/12}
+
+%\documentclass[draft]{iuthesis}
+\documentclass[final]{iuthesis}
+%% Packages Here
+\usepackage{amsthm}
+\usepackage[final]{graphicx}
+\usepackage{multirow} 
+\usepackage[table]{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[english]{babel}
+\usepackage{hyphenat}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{natbib}
+\usepackage{chngcntr}
+%\usepackage{subfigure}
+%\usepackage{rotating}
+\usepackage{afterpage}
+\usepackage{longtable}
+\usepackage{rotfloat}
+\usepackage{lineno}
+\usepackage{enumitem}
+%\usepackage{abstract}
+%\renewcommand{\abstractname}{Understanding Protein Function through Statistical Inference and Evolutionary Analysis} 
+
+
+%% Define Bib style
+\bibliographystyle{abbrvnat} 
+\DeclareCaptionOption{parskip}[]{}
+%% Other
+\hyphenation{mis-in-for-mation}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+%\newtheorem{proof}{Proof}
+\definecolor{LightBlue}{RGB}{215,219,220}
+
+\hypersetup{
+	final,
+	pdfborder = 0 0 0,
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+\captionsetup{
+	labelfont={sf,bf},
+	width={.85\textwidth}
+}
+
+%% Title, Author, ETC
+\title{Understanding Protein Function through Statistical Inference and Evolutionary Analysis}
+\author{Wyatt Travis Clark}
+
+\advisor{Predrag Radivojac}
+\secondreader{Matthew Hahn}
+\thirdreader{Haixu Tang}
+\fourthreader{Michael Lynch}
+
+\department{Informatics and Computing}
+\departmentname{School}
+\copyrightyear{2013}
+\submitdate{June 4, 2013}
+%%
+\setcounter{tocdepth}{3} % 
+%\makeatletter 
+%\expandafter\def\csname r@tocindent4\endcsname{0pt} 
+%\makeatother 
+\makeatletter
+\def\l@subsection{\@tocline{2}{0pt}{2.5pc}{5pc}{}}
+\def\l@subsubsection{\@tocline{2}{0pt}{3.5pc}{5pc}{}}
+\makeatother
+
+
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter}
+%\addto{\captionsenglish}{
+%\renewcommand{\abstractname}{Executive Summary}
+%}
+%\AtBeginDocument{\addto\captionsenglish{\renewcommand*\abstractname{}}}
+
+
+\begin{document}
+	\input{abstract}
+	\frontmatter
+	\maketitle
+
+	\signaturepage
+	%\copyrightpage
+	
+	\input{dedication}
+	\makededication
+	
+	\input{acknowledgements}
+	\makeack
+
+
+	\makeabstract
+
+	\tableofcontents
+	\listoffigures
+	%\listoftables
+
+	
+	% Main matter starts here
+	\mainmatter
+	%\linenumbers
+	\input{introduction} 
+	\input{fanngo}	
+	%\input{clarifying_oc}
+	%\input{retestingoc}
+	%\input{sdproof}	
+	\input{vq}
+	\input{rumi}
+	\input{oc}
+	
+	%\input{rumi_supp}
+	
+	\appendix 
+%	\include{refutation}
+
+	\bibliographystyle{abbrvnat} 
+	\bibliography{refdbshort}
+%	\bibliography{refdbshort}
+	\printindex
+	
+	%only print back matter if including vita	
+%	\backmatter
+%	\include{vita}
+
+\end{document}
+\endinput

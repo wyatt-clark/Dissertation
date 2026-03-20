@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\chapter{A multi-output neural network for function prediction}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%\section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%\input{fanngo_removed_introduction}
+
+As shown in \Cref{chap:intro},  the prediction of protein function is a difficult task.  The multi-faceted aspect of function results in proteins, after being thoroughly investigated, almost always being annotated with more than one function.  Terms in a hierarchically structured ontology are also not independent, as discussed in detail in \Cref{ch:rumi}. Because of these challenges we chose to utilize a multi-output neural network to predict protein function.  One advantage of multi-output neural networks is their ability to learn dependencies between outputs.  This is particularly important given the structure of the ontology.  The use of a multi-label classifier also negates the need to \emph{post hoc} processing in order to combine multiple one-versus-all, or one-versus-one binary classifiers into a multi-label classifier.
+
+In this chapter we  develop a method for probabilistic inference of GO terms using supervised learning. Our algorithm, Functional ANNotator (FANN), employs multi-output artificial neural networks. We show that in the GO annotation task, FANN-GO outperforms standard sequence alignment methods and GOtcha \citep{Martin2004}. We predict function at the molecular function and biological process levels from protein sequence alone. 
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\input{fanngo_methods}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\input{fanngo_results}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+In this work, we investigated the accuracy of function prediction by simple methods such as transfer by sequence similarity contrasted against our new computational method for predicting protein function, Functional ANNotator (FANN). Our new algorithm, Functional ANNotator (FANN) was developed as a supervised method for the prediction of protein function based on sequence alignments only. While diverse types of data may be available in some model organisms, function transfer between model and non-model organisms is ultimately and critically dependent upon sequence-based predictions. Our attempt is a simple algorithm that encodes every protein as a vector of similarities in a space of protein functions, with neural networks used to learn posterior probabilities of sequence-function relationships. Neural networks are well-suited for this classification task due to their natural ability to learn multiple outputs that are dependent and mutually non-exclusive. The methodology best-suited for such prediction tasks is an open problem, with examples including one-versus-all training of binary classifiers, or their combination with post-processing methods for multi-label classification. Compared to previous attempts to incorporate the structure of the ontology in a supervised manner, our method does not require post-processing \citep{Barutcuoglu2006} or constraints on the kernel functions between input and output spaces \citep{Sokolov2010}. On the other hand, neural networks, as implemented here, do not necessarily produce a consistent set of predictions, i.e. a parent term may have a lower score than any of its children's terms. While from a machine learning perspective this is undesired, we believe this feature can be useful for detecting problems with the ontology itself, as it should not be assumed that either molecular function or biological process are error-free and complete. It should be pointed out that this inconsistency is also a drawback of one-versus-all methods.
+
+Currently, it is believed that the most accurate computational models for sequence-based function prediction are GOtcha-based unsupervised algorithms \citep{Friedberg2006c,Izarzugaza2007,Rentzsch2009}. While these models are very good in their performance, we show that supervised methods outperform them on the same data. One drawback, however, is that supervised methods are limited to only functional terms that are associated with a sufficient number of sequences. Therefore, a function prediction task may be well suited for the methods combining supervised (for terms where enough proteins are available) and unsupervised (when only a small number of sequences are available) approaches. Finally, it should be kept in mind that a separate category of \emph{de novo} prediction methods is needed for proteins with novel or organism-specific functions. Such algorithms, however, are beyond the scope of this work.
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Acknowledgements}
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%
+%We thank Prof. Matthew W. Hahn and Fuxiao Xin for helpful comments and proofreading this article.  We also thank the reviewers for constructive comments that further improved the quality and presentation of this work. This study was supported by the National Science Foundation grant DBI-0644017 to PR.
+
+
+
+

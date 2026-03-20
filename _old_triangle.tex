@@ -1,0 +1,58 @@
+Proving that $S_{k}$ does not violate the triangle inequality is done by showing that
+
+\[
+S_{k}(T_{1},T_{2})+S_{k}(T_{1},T_{3})\geq S_{k}(T_{2},T_{3})
+\]
+In order to do this we first use \Cref{fig:sdvenn} to first rewrite the above expression as
+
+\[
+\left[\left(p+s\right)^{k} + \left(r+u\right)^{k}\right]^{^1/_k} + \left[\left(p+q\right)^{k} + \left(v+u\right)^{k}\right]^{^1/_k}\geq\left[\left(q+r\right)^{k}+\left(s+v\right)^{k}\right]^{^1/_k}
+\]
+
+We first raise both sides of the equation to the power $k$, canceling the $k$-th root on the right hand side
+
+\[
+\left(\left[\left(p+s\right)^{k} + \left(r+u\right)^{k}\right]^{^1/_k} + \left[\left(p+q\right)^{k} + \left(v+u\right)^{k}\right]^{^1/_k}\right)^k \geq \left[\left(q+r\right)^{k}+\left(s+v\right)^{k}\right]
+\]
+
+Using the binary expansion,
+
+\[
+(a+b)^k=\sum_{i=0}^{k} \binom{k}{i} a^{i}b^{k-i},
+\]
+
+the left hand side can be rewritten as
+\begin{eqnarray*}
+& = & \left(\left[\left(p+s\right)^{k} + \left(r+u\right)^{k}\right]^{^1/_k} + \left[\left(p+q\right)^{k} + \left(v+u\right)^{k}\right]^{^1/_k}\right)^k \\
+& = & \sum_{i=0}^{k} \binom{k}{i} \left[\left(p+s\right)^{k} + \left(r+u\right)^{k}\right]^{^i/_k}  \left[\left(p+q\right)^{k} + \left(v+u\right)^{k}\right]^{^{k-i}/_k}
+\end{eqnarray*}
+
+Introducing an additional variable, $j$, the binomial expansion can be again applied to each individual $\left(a+b\right)^{k}$ term
+
+\begin{eqnarray*}
+& = & \sum_{i=0}^{k} \binom{k}{i} \left[ \left( \sum_{j=0}^{k} \binom{k}{j} p^{j}s^{k-j} + \sum_{j=0}^{k} \binom{k}{j} r^{j}u^{k-j} \right)^{^i/_k}  \left( \sum_{j=0}^{k} \binom{k}{j} p^{j}q^{k-j} + \sum_{i=0}^{k} \binom{k}{j} v^{j}u^{k-j} \right)^{^{k-i}/_k} \right]\\
+& = & \sum_{i=0}^{k} \binom{k}{i} \left\{  \left[ \sum_{j=0}^{k} \binom{k}{j} \left( p^{j}s^{k-j} +  r^{j}u^{k-j} \right) \right]^{^i/_k}  \left[ \sum_{j=0}^{k} \binom{k}{j} \left( p^{j}q^{k-j} + v^{j}u^{k-j} \right) \right]^{^{k-i}/_k} \right\}
+\end{eqnarray*}
+
+
+Working with the right hand side we can also apply the binomial expansion,
+\begin{eqnarray*}
+& = & \left(q+r\right)^{k}+\left(s+v\right)^{k}\\
+& = & \sum_{i=0}^{k} \binom{k}{i} q^{i}r^{k-i} + \sum_{i=0}^{k} \binom{k}{i} s^{i}v^{k-i}\\
+& = & \sum_{i=0}^{k} \binom{k}{i} \left( q^{i}r^{k-i} +  s^{i}v^{k-i} \right)
+\end{eqnarray*}
+
+We now need to prove that
+
+\begin{multline}
+ \sum_{i=0}^{k} \binom{k}{i} \left\{  \left[ \sum_{j=0}^{k} \binom{k}{j} \left( p^{j}s^{k-j} +  r^{j}u^{k-j} \right) \right]^{^i/_k}  \left[ \sum_{j=0}^{k} \binom{k}{j} \left( p^{j}q^{k-j} + v^{j}u^{k-j} \right) \right]^{^{k-i}/_k} \right\}  \\
+ \geq  \left( q^{i}r^{k-i} +  s^{i}v^{k-i} \right)
+ \notag
+\end{multline}
+
+In this form we can try to show that for every value of $i$ the left hand side is greater than or equal to the right hand side.  Doing so allows us to ignore the $\sum_{i=0}^{k} \binom{k}{i}$ term that precedes each side.  
+
+
+
+
+

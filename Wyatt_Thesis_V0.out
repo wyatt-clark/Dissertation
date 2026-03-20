@@ -1,0 +1,98 @@
+\BOOKMARK [0][-]{Doc-Start}{List of Figures}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Chapter 1. Prediction and analysis of gene function}{}% 2
+\BOOKMARK [1][-]{section.1.1}{1. Defining function}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{2. Challenges in predicting function}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.2.1}{2.1. Multi-functional proteins}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.2}{2.2. Transfer of function by sequence similarity}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.3}{2.3. Quality of non-experimental annotations in Swiss-Prot}{section.1.2}% 7
+\BOOKMARK [1][-]{section.1.3}{3. State of the art methods}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.3.1}{3.1. Community-wide assessment of function prediction}{section.1.3}% 9
+\BOOKMARK [1][-]{section.1.4}{4. Analysis of function in evolutionary context}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.5}{5. Conclusion}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{Chapter 2. A multi-output neural network for function prediction}{}% 12
+\BOOKMARK [1][-]{section.2.1}{1. Methods}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.1.1}{1.1. Problem formulation}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.2}{1.2. Data sets}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.3}{1.3. Data representation}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.4}{1.4. Classification models}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.5}{1.5. Model selection and evaluation}{section.2.1}% 18
+\BOOKMARK [1][-]{section.2.2}{2. Results}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.3}{3. Discussion}{chapter.2}% 20
+\BOOKMARK [0][-]{chapter.3}{Chapter 3. Property Kernels based on Vector Quantization}{}% 21
+\BOOKMARK [1][-]{section.3.1}{1. Problem formulation}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.2}{2. Methods}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.2.1}{2.1. Count-based property kernels}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.2}{2.2. Additive property kernels}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.3}{2.3. Combined kernel function}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.4}{2.4. Computational complexity}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.5}{2.5. String kernel}{section.3.2}% 28
+\BOOKMARK [1][-]{section.3.3}{3. Mapping proteins into property vectors}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.1}{3.1. Structure based properties}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.2}{3.2. Sequence based properties}{section.3.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3. Tested values of window size and number of centroids}{section.3.3}% 32
+\BOOKMARK [1][-]{section.3.4}{4. Experiments and data}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.4.1}{4.1. Cross-validation}{section.3.4}% 34
+\BOOKMARK [2][-]{subsection.3.4.2}{4.2. Performance accuracy estimation}{section.3.4}% 35
+\BOOKMARK [2][-]{subsection.3.4.3}{4.3. Signal-to-noise ratio}{section.3.4}% 36
+\BOOKMARK [1][-]{section.3.5}{5. Results}{chapter.3}% 37
+\BOOKMARK [2][-]{subsection.3.5.1}{5.1. Performance of individual properties}{section.3.5}% 38
+\BOOKMARK [3][-]{subsubsection.3.5.1.1}{5.1.1. SCOP fold}{subsection.3.5.1}% 39
+\BOOKMARK [3][-]{subsubsection.3.5.1.2}{5.1.2. Catalytic activity}{subsection.3.5.1}% 40
+\BOOKMARK [3][-]{subsubsection.3.5.1.3}{5.1.3. Catalytic activity subclass}{subsection.3.5.1}% 41
+\BOOKMARK [2][-]{subsection.3.5.2}{5.2. Combined kernel performance}{section.3.5}% 42
+\BOOKMARK [3][-]{subsubsection.3.5.2.1}{5.2.1. SCOP fold}{subsection.3.5.2}% 43
+\BOOKMARK [3][-]{subsubsection.3.5.2.2}{5.2.2. Catalytic activity}{subsection.3.5.2}% 44
+\BOOKMARK [3][-]{subsubsection.3.5.2.3}{5.2.3. Catalytic activity subclass}{subsection.3.5.2}% 45
+\BOOKMARK [2][-]{subsection.3.5.3}{5.3. String kernel performance}{section.3.5}% 46
+\BOOKMARK [2][-]{subsection.3.5.4}{5.4. Optimal parameter values}{section.3.5}% 47
+\BOOKMARK [3][-]{subsubsection.3.5.4.1}{5.4.1. SCOP fold}{subsection.3.5.4}% 48
+\BOOKMARK [3][-]{subsubsection.3.5.4.2}{5.4.2. Catalytic activity}{subsection.3.5.4}% 49
+\BOOKMARK [3][-]{subsubsection.3.5.4.3}{5.4.3. Catalytic activity subclass}{subsection.3.5.4}% 50
+\BOOKMARK [2][-]{subsection.3.5.5}{5.5. Comparing AUC and SNR}{section.3.5}% 51
+\BOOKMARK [2][-]{figure.caption.22}{5.6. Reduced redundancy data set}{section.3.5}% 52
+\BOOKMARK [1][-]{section.3.6}{6. Discussion}{chapter.3}% 53
+\BOOKMARK [0][-]{chapter.4}{Chapter 4. Information-theoretic evaluation of predicted ontological annotations}{}% 54
+\BOOKMARK [1][-]{section.4.1}{1. Background}{chapter.4}% 55
+\BOOKMARK [1][-]{section.4.2}{2. Protein function prediction scenarios}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.3}{3. Methods}{chapter.4}% 57
+\BOOKMARK [2][-]{subsection.4.3.1}{3.1. Calculating the joint probability of a graph}{section.4.3}% 58
+\BOOKMARK [2][-]{subsection.4.3.2}{3.2. Calculating the information content of a graph}{section.4.3}% 59
+\BOOKMARK [2][-]{subsection.4.3.3}{3.3. Comparing two annotation graphs}{section.4.3}% 60
+\BOOKMARK [2][-]{subsection.4.3.4}{3.4. Measuring the quality of function prediction}{section.4.3}% 61
+\BOOKMARK [2][-]{subsection.4.3.5}{3.5. Weighted metrics}{section.4.3}% 62
+\BOOKMARK [2][-]{subsection.4.3.6}{3.6. Semantic distance}{section.4.3}% 63
+\BOOKMARK [2][-]{subsection.4.3.7}{3.7. Precision and recall}{section.4.3}% 64
+\BOOKMARK [3][-]{subsubsection.4.3.7.1}{3.7.1. Information-theoretic weighted formulation}{subsection.4.3.7}% 65
+\BOOKMARK [2][-]{subsection.4.3.8}{3.8. Supplementary evaluation metrics}{section.4.3}% 66
+\BOOKMARK [3][-]{subsubsection.4.3.8.1}{3.8.1. Basic definitions}{subsection.4.3.8}% 67
+\BOOKMARK [3][-]{subsubsection.4.3.8.2}{3.8.2. Information-theoretic metrics between pairs of vertices}{subsection.4.3.8}% 68
+\BOOKMARK [3][-]{subsubsection.4.3.8.3}{3.8.3. Information-theoretic metrics between pairs of graphs}{subsection.4.3.8}% 69
+\BOOKMARK [2][-]{subsection.4.3.9}{3.9. Additional topological metrics}{section.4.3}% 70
+\BOOKMARK [1][-]{section.4.4}{4. Confusion matrix interpretation of ru and mi}{chapter.4}% 71
+\BOOKMARK [1][-]{section.4.5}{5. Analysis of semantic distance}{chapter.4}% 72
+\BOOKMARK [1][-]{section.4.6}{6. Annotation models}{chapter.4}% 73
+\BOOKMARK [2][-]{subsection.4.6.1}{6.1. The Na\357ve model}{section.4.6}% 74
+\BOOKMARK [2][-]{subsection.4.6.2}{6.2. The BLAST model}{section.4.6}% 75
+\BOOKMARK [2][-]{subsection.4.6.3}{6.3. The GOtcha model}{section.4.6}% 76
+\BOOKMARK [1][-]{section.4.7}{7. Experiments and results}{chapter.4}% 77
+\BOOKMARK [2][-]{subsection.4.7.1}{7.1. Average information content of a protein}{section.4.7}% 78
+\BOOKMARK [2][-]{subsection.4.7.2}{7.2. Two-dimensional plots}{section.4.7}% 79
+\BOOKMARK [2][-]{subsection.4.7.3}{7.3. Comparisons of single statistics}{section.4.7}% 80
+\BOOKMARK [1][-]{section.4.8}{8. Discussion}{chapter.4}% 81
+\BOOKMARK [0][-]{chapter.5}{Chapter 5. Testing the ortholog conjecture with comparative functional genomic data }{}% 82
+\BOOKMARK [1][-]{section.5.1}{1. Results}{chapter.5}% 83
+\BOOKMARK [2][-]{subsection.5.1.1}{1.1. Functional similarity between orthologs and all paralogs}{section.5.1}% 84
+\BOOKMARK [2][-]{subsection.5.1.2}{1.2. Functional similarity between orthologs and subtypes of paralogs}{section.5.1}% 85
+\BOOKMARK [2][-]{subsection.5.1.3}{1.3. Microarray-based measures of functional similarity}{section.5.1}% 86
+\BOOKMARK [2][-]{subsection.5.1.4}{1.4. Protein interaction-based measures of functional similarity}{section.5.1}% 87
+\BOOKMARK [2][-]{subsection.5.1.5}{1.5. Family-based analyses}{section.5.1}% 88
+\BOOKMARK [1][-]{section.5.2}{2. Discussion}{chapter.5}% 89
+\BOOKMARK [2][-]{subsection.5.2.1}{2.1. The evolution of gene function}{section.5.2}% 90
+\BOOKMARK [2][-]{subsection.5.2.2}{2.2. Implications for protein function prediction}{section.5.2}% 91
+\BOOKMARK [1][-]{section.5.3}{3. Materials and Methods}{chapter.5}% 92
+\BOOKMARK [2][-]{subsection.5.3.1}{3.1. Comparative genomics data}{section.5.3}% 93
+\BOOKMARK [2][-]{subsection.5.3.2}{3.2. Protein function data}{section.5.3}% 94
+\BOOKMARK [2][-]{subsection.5.3.3}{3.3. Calculation of similarity}{section.5.3}% 95
+\BOOKMARK [2][-]{subsection.5.3.4}{3.4. Microarray data}{section.5.3}% 96
+\BOOKMARK [2][-]{subsection.5.3.5}{3.5. Protein interaction data}{section.5.3}% 97
+\BOOKMARK [0][-]{appendix*.51}{Bibliography}{}% 98

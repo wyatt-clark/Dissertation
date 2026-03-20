@@ -1,0 +1,106 @@
+\def\fileversion{1.2.0.23}
+\def\filedate{1999/06/04}
+
+%\documentclass[draft]{iuthesis}
+\documentclass[final]{iuthesis}
+%% Packages Here
+\usepackage[final]{graphicx}
+\usepackage{multirow} 
+\usepackage[table]{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{subfig}
+\usepackage[english]{babel}
+\usepackage{hyphenat}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{natbib}
+\usepackage{chngcntr}
+\usepackage{afterpage}
+\usepackage{longtable}
+%\usepackage{slashbox, pict2e}
+%\usepackage{pdflscape}
+\usepackage{rotfloat}
+%\usepackage{xfrac}
+
+%% Define Bib style
+\bibliographystyle{abbrvnat} 
+\DeclareCaptionOption{parskip}[]{}
+%% Other
+\hyphenation{mis-in-for-mation}
+
+\definecolor{LightBlue}{RGB}{215,219,220}
+
+\hypersetup{
+	final,
+	pdfborder = 0 0 0,
+	colorlinks,
+	citecolor=red,
+	filecolor=black,
+	linkcolor=red,
+	urlcolor=black
+}
+
+\captionsetup{
+	labelfont={sf,bf},
+	width={.85\textwidth}
+}
+
+%% Title, Author, ETC
+\title{Understanding Protein Function through Statistical Inference and Evolutionary Analysis}
+\author{Wyatt Travis Clark}
+
+\advisor{Predrag Radivojac}
+\secondreader{Matthew Hahn}
+\thirdreader{Haixu Tang}
+\fourthreader{Michael Lynch}
+
+\department{Informatics and Computing}
+\departmentname{School}
+\copyrightyear{2013}
+\submitdate{2013}
+%%
+\setcounter{tocdepth}{3} % 
+%\makeatletter 
+%\expandafter\def\csname r@tocindent4\endcsname{0pt} 
+%\makeatother 
+\makeatletter
+\def\l@subsection{\@tocline{2}{0pt}{2.5pc}{5pc}{}}
+\def\l@subsubsection{\@tocline{2}{0pt}{3.5pc}{5pc}{}}
+\makeatother
+
+
+
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter}
+
+
+
+\begin{document}
+	
+	
+	% Main matter starts here
+	\mainmatter
+	
+	\input{vq}	
+
+	%\input{oc}
+	%\input{retestingoc}
+	%\input{rumi_supp}
+	
+	\appendix 
+%	\include{refutation}
+
+	\bibliographystyle{abbrvnat} 
+	\bibliography{refdbshort}
+%	\bibliography{refdbshort}
+	\printindex
+	
+	%only print back matter if including vita	
+%	\backmatter
+%	\include{vita}
+
+\end{document}
+\endinput

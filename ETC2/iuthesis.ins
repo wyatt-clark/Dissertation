@@ -1,0 +1,14 @@
+\def\batchfile{iuthesis.ins}
+\input docstrip.tex
+\preamble
+  IUThesis Document Class (N. Danner)
+\endpreamble
+\generateFile{iuthesis.cls}	{f}{\from{iuthesis.dtx}{class}}
+\generateFile{iuthesis.tex}	{t}{\from{iuthesis.dtx}{docs}}
+
+\Msg{Move the following files into an input file directory:}
+\Msg{    iuthesis.cls}
+
+\Msg{Run latex on the file iuthesis.tex to get documentation.}
+\Msg{For line-by-line documentation of the code, run latex on}
+\Msg{iuthesis.dtx directly.}

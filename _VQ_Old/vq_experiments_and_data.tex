@@ -1,0 +1,129 @@
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Experiments}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsection{Function prediction}
+We split the prediction of GO function into two experiments.  In the first we used all proteins from SwissProt with experimental annotations and attempted to distinguish enzymes, or those proteins annotated with the term ``catalytic activity", from all other proteins.  This was carried out as a single one-vs-all experiment.  In the second experiment we attempted to determine which subclass of enzyme a protein belonged to, given that it has already been determined to be an enzyme.  Although the term ``catalytic activity" has several children in the ontology, we only performed classification for children with more than 100 associated terms: ``oxidoreductase activity", ``transferase activity", ``hydrolase activity", ``lyase activity", ``isomerase activity", or ``ligase activity" (\Cref{tab:vqgodata}). This was carried out as multiple one-vs-all classification tasks where the negative data-set consisted of all proteins not annotated with the term being considered but annotated with the term ``catalytic activity", regardless of whether that protein belongs to one of the 6 children of ``catalytic activity" being tested.
+
+
+\subsection{Structure prediction}
+
+We prformed structural prediction on the SCOP fold classes of $\alpha$, $\beta$, $\alpha+\beta$, or $\alpha/\beta$ \citep{murzin1995scop}.  As with function prediction this was carried out as a one-vs-all task \Cref{tab:vqscopdata}.
+
+
+\subsection{Fold selection}
+
+We performed 10-fold cross validation on both data sets. For each fold a non-overlapping test and training set, which consisted of $\frac{1}{10}$-ths and $\frac{9}{10}$-ths of the data set respectively, were generated. All 10 testing sets were mutually exclusive and collectively exhaustive.  We created a single set of testing folds for all classification sub-tasks ; one set for SCOP fold classification and a separate for all GO function classification tasks.  We took steps in order to ensure that positive data points for each class were evenly distributed among each fold.  
+
+Because protein structures are only assigned to a single SCOP class ensuring equal distribution among testing folds was very simple; we merely assigned a random $\frac{1}{10}$ of all proteins for a tested SCOP class to each testing fold.  When creating testing folds for GO classification we equally distributed terms belonging to each subclass of ``catalytic activity" ensuring that proteins that may have belonged to more than one class only appear in one testing fold and did not appear more than once in each fold.  Although we only evaluated prediction performance on subclasses of ``catalytic activity" with more than 100 associated proteins we distributed sequences associated with untested functions as well as they were used as negative data points in training.
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Data Sets}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsubsection{SCOP data}
+We utilized Astral 1.75A, which represents a database of proteins classified according to secondary structures as defined by SCOP \citep{andreeva2004scop}.  In order to ensure that redundancy in the data set did not lead to inflated assessment of performance we chose the $40\%$ non-redundant version of the database. 
+
+
+\subsubsection{GO data}
+
+We used annotations from the version April 2012 release of Swiss-Prot \citep{uniprot2012} in conjunction with the  May 4, 2012 version of the gene ontology \citep{Ashburner2000}.  Only annotations supported by evidence codes EXP, IDA, IPI, IMP, IGI, IEP, TAS, IC. In order to test the ability of each method to categorize sequences without similar uncharacterized sequences we also created a non-redundant data set $NR_{40}$ where sequences with $>40\%$ sequence identity to another sequence in the data set were removed.  
+
+
+%Table
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table*}[h]
+\centering
+
+\subfloat[SCOP data set\label{tab:vqscopdata}]{
+\centering
+	\begin{tabular}{|l||c|c|}
+
+		\hline		
+		SCOP Fold & positives & negatives\\
+		\hline
+		\hline
+		all $\alpha$ & 1901 & 7486\\
+		all $\beta$ & 2175 & 7212\\
+		$\alpha+\beta$ & 2665 & 6722\\
+		$\alpha/\beta$ & 2646 & 6741\\
+	
+		\hline    
+	\end{tabular}
+  }
+
+\subfloat[GO data set\label{tab:vqgodata}]{
+\centering
+	\begin{tabular}{|l||c|c|}
+		\hline
+		GO term & positives & negatives\\
+		\hline
+		\hline
+		\rowcolor{lightgray}	catalytic activity & 9506 & 18936\\
+		\hline		
+		oxidoreductase activity & 1586 & 7873\\
+		transferase activity & 3229 & 6230\\
+		hydrolase activity & 3179 & 6280\\
+		lyase activity & 569 & 8890\\
+		isomerase activity & 389 & 9070\\
+		ligase activity & 790 & 8669\\
+		\hline    
+	\end{tabular}
+}
+    
+ \caption[Summary of data set used for the structure and function classification experiments]{Summary of the data set used for the structure and function classification experiments.  \Cref{tab:vqscopdata} summarizes the number of positives and negatives used for the classification of protein structures as $\alpha$, $\beta$, $\alpha+\beta$, or $\alpha/\beta$ folds.  \Cref{tab:vqgodata} summarizes the number of positives and negatives used when classifying amino acid sequences as being assigned the GO term ``catalytic activity", or given they are associated with the term ``catalytic activity", whether they can be subcategorized as one or more of the six immediate children of ``catalytic activity" in the ontology: ``oxidoreductase activity", ``transferase activity", ``hydrolase activity", ``lyase activity", ``isomerase activity", or ``ligase activity"}\label{tab:vqdata}
+\end{table*}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Mapping proteins into property vectors }
+\label{sec:vqfeatures}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+Let $\mathbf{s}=s_{1},s_{2}\ldots s_{\ell}$ be a length-$\ell$ protein sequence in $\mathcal{S}$ and $\mathbf{p}=(p_{1},p_{2},\ldots,p_{\ell})$ some property vector corresponding to $\mathbf{s}$. Vector \textbf{$\mathbf{p}$} can be defined by any mapping of $\mathcal{A}^{\ell}$ to $\mathbb{R}^{\ell}$. For example, $\mathbf{p}$ may be provided as a vector of hydrophobicity indices corresponding to amino acids in $\mathbf{s}$. Alternatively, it can be represented as predicted helical propensities as outputted by some predictor of secondary structure. For those sequences with available structures, $\mathbf{p}$ may correspond to a sequence of dihedral angles calculated from the protein structure model of $\mathbf{s}$. 
+
+\subsubsection{Structure based properties}
+
+For the task of SCOP fold prediction we generated time series structure based properties.  We specifically choose to use the term ``time series" to emphasize the novelty in the structural representation used: instead of representing each amino acid, or at a more detailed level not utilized here each atom, as its cordinate in a 3D plane, we chose to represent each atom amino acid in terms of backbone angles.  These angles can be used to position each amino acid in relation to the previous residue in the sequence of amino acids.  The usefulness of representing a structure in this manner is that backbone angle are the same regardless of how the overall protein is oriented in the 3D plane, whereas 3D coordinates can change for the exact same structure simply by rotating or shifting it.  
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}[h!]
+\begin{centering}
+\includegraphics[width=.50\linewidth]{Figures/vq/backbone}
+\par\end{centering}
+\caption[A protein backbone]{A simple stick and ball protein stricture used to illustrate the structural components represented by backbone $\kappa$, $\alpha$, $\phi$, and $\psi$ angles. }
+\label{fig:vqbackbone}
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+We utilized four types of backbone angles $\kappa$, $\alpha$, $\phi$, and $\psi$.  \Cref{fig:vqbackbone} illustrates these backbone angles are defined using an protein backbone chain. $\phi$ and $\psi$ angles represent the torsion angle, or amount of rotation, of the bond between $C_{\alpha}$ side-chain  attached carbon atom and the adjacent nitrogen ($\phi$ angle) and $C^{\prime}$ carbon ($\psi$ angle) atoms. While $\phi$ and $\psi$ represent torsion angles between adjacent atoms in a protein's backbone, $\kappa$ and $\alpha$ angles represent the relationship between more distant $C_{\alpha}$ atoms.  An $\ell$ amino acid length sequence, $\mathbf{s}=s_{1},s_{2}\ldots s_{\ell}$, will have $\ell$ associate $C_{\alpha}$ carbon atoms:   $C_{\alpha}^{1}, C_{\alpha}^{2} \ldots C_{\alpha}^{\ell}$. Using a $C_{\alpha}^{i}$ atom as a vertex (in the angular sense), the $\kappa$ angle represents the angle obtained by extending a line from the $C_{\alpha}^{i}$ atom's position to the $C_{\alpha}^{i-2}$ and $C_{\alpha}^{i+2}$ atoms.  The $\alpha$ angle represents the dihedral angle measured between the $C_{\alpha}^{i-1}$ and $C_{\alpha}^{i+2}$ atoms when two planes are generated using the $C_{\alpha}^{i}$ atom to the $C_{\alpha}^{i+1}$ to define the line where the two planes meet.
+
+$\kappa$, $\alpha$, $\phi$, and $\psi$ angles were obtained using DSSP \citep{Kabsch1983} to convert PDB structures into backbone angles.  In addition to generating backbone angles, DSSP also output solvent accessibility values which we used as a fifth ``structure" based feature.
+
+
+\subsubsection{Sequence based properties}
+
+We generated seven sequence property based properties for both the task of categorizing structures into SCOP folds and predicting GO function.  These features were generated in order to represent a biologically relevant property associated with a region of a protein sequence.  
+
+($i$) hydrophobicity, calculated using the the Kyte-Doolittle scale \citep{Kyte1982} in a sliding window with $w=11$, ($ii$) flexibility, calculated as predicted B-factors using our previous model \citep{Smith2003}, secondary structure predictions of ($iii$) helix, ($iv$) loop and ($v$) sheet propensities using our in-house predictor, and intrinsic disorder, ($vi$) using the previously published VSL2B model \citep{Peng2006} as well as ($vii$) using PDBDisorder XXX? . 
+
+\subsubsection{Tested values of $n$ (window size) and $m$ (number of centroids)}
+
+We tested a range of combinations of values for $n$ (window size), and $m$ (number of centroids) for each feature.  For values of $n$ we tested $n=\{2^{i}:i=2\dots 5\}$.  Similarly, for the number of centroids, $m$, we tested $m=\{2^{i}:i=6,8,10,12\}$. For all values of $m$ and $n$ we performed $k$-means clustering using $10^6$ randomly sampled vectors from all data points.
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+

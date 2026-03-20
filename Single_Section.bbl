@@ -1,0 +1,172 @@
+\begin{thebibliography}{25}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Altschul et~al.(1990)Altschul, Gish, Miller, Myers, and
+  Lipman]{Altschul1990}
+S.~F. Altschul, W.~Gish, W.~Miller, E.~W. Myers, and D.~J. Lipman.
+\newblock {Basic local alignment search tool}.
+\newblock \emph{Journal of Molecular Biology}, 215\penalty0 (3):\penalty0
+  403--410, 1990.
+
+\bibitem[Andreeva et~al.(2004)Andreeva, Howorth, Brenner, Hubbard, Chothia, and
+  Murzin]{andreeva2004scop}
+A.~Andreeva, D.~Howorth, S.~E. Brenner, T.~J.~P. Hubbard, C.~Chothia, and A.~G.
+  Murzin.
+\newblock Scop database in 2004: refinements integrate structure and sequence
+  family data.
+\newblock \emph{Nucleic Acids Research}, 32\penalty0 (suppl 1):\penalty0
+  D226--D229, 2004.
+
+\bibitem[Ashburner et~al.(2000)]{Ashburner2000}
+M.~Ashburner et~al.
+\newblock Gene ontology: tool for the unification of biology. {The Gene
+  Ontology Consortium}.
+\newblock \emph{Nature Genetics}, 25\penalty0 (1):\penalty0 25--29, 2000.
+
+\bibitem[Ben-Hur and Noble(2005)]{BenHur2005}
+A.~Ben-Hur and W.~S. Noble.
+\newblock {Kernel methods for predicting protein-protein interactions.}
+\newblock \emph{Bioinformatics}, 21\penalty0 (1):\penalty0 i38--i46, 2005.
+
+\bibitem[Consortium(2012)]{uniprot2012}
+T.~U. Consortium.
+\newblock Reorganizing the protein space at the universal protein resource
+  (uniprot).
+\newblock \emph{Nucleic Acids Research}, 40\penalty0 (Database issue):\penalty0
+  D71--5, 2012.
+\newblock ISSN 13624962.
+
+\bibitem[Dayhoff et~al.(1978)Dayhoff, Schwartz, and Orcutt]{Dayhoff1978}
+M.~O. Dayhoff, R.~M. Schwartz, and B.~C. Orcutt.
+\newblock {A model of evolutionary change in proteins}.
+\newblock \emph{Atlas of protein sequence and structure}, 5\penalty0 (Suppl
+  3):\penalty0 345--352, 1978.
+
+\bibitem[{De Bie} et~al.(2007){De Bie}, Tranchevent, {Van Oeffelen}, and
+  Moreau]{DeBie2007}
+T.~{De Bie}, L.-C.~T. Tranchevent, L.~{Van Oeffelen}, and Y.~Moreau.
+\newblock {Kernel-based data fusion for gene prioritization}.
+\newblock \emph{Bioinformatics}, 23\penalty0 (13):\penalty0 i125--i132, 2007.
+
+\bibitem[Dunker and Obradovic(2001)]{Dunker2001}
+A.~K. Dunker and Z.~Obradovic.
+\newblock \emph{Nature Biotechnology}, 19\penalty0 (9):\penalty0 805--6, 2001.
+
+\bibitem[Dunker et~al.(2001)Dunker, Lawson, Brown, Williams, Romero, Oh,
+  Oldfield, Campen, Ratliff, Hipps, Ausio, Nissen, Reeves, Kang, Kissinger,
+  Bailey, Griswold, Chiu, Garner, and Obradovic]{Dunker2001a}
+A.~K. Dunker, J.~D. Lawson, C.~J. Brown, R.~M. Williams, P.~Romero, J.~S. Oh,
+  C.~J. Oldfield, A.~M. Campen, C.~M. Ratliff, K.~W. Hipps, J.~Ausio, M.~S.
+  Nissen, R.~Reeves, C.~Kang, C.~R. Kissinger, R.~W. Bailey, M.~D. Griswold,
+  W.~Chiu, E.~C. Garner, and Z.~Obradovic.
+\newblock {Intrinsically disordered proteins}.
+\newblock \emph{Journal of Molecular Graphics and Modelling}, 19\penalty0
+  (1):\penalty0 26--59, 2001.
+
+\bibitem[Gersho and Gray(1992)]{gersho1992vector}
+A.~Gersho and R.~M. Gray.
+\newblock \emph{Vector quantization and signal compression}, volume 159.
+\newblock Springer, 1992.
+
+\bibitem[Haussler(1999)]{Haussler1999}
+D.~Haussler.
+\newblock Convolution kernels on discrete structures.
+\newblock Technical Report~1, University of California at Santa Cruz, 1999.
+
+\bibitem[Henikoff and Henikoff(1992)]{Henikoff1992}
+S.~Henikoff and J.~G. Henikoff.
+\newblock {Amino acid substitution matrices from protein blocks.}
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 89\penalty0 (22):\penalty0 10915--10919, 1992.
+
+\bibitem[Kabsch and Sander(1983)]{Kabsch1983}
+W.~Kabsch and C.~Sander.
+\newblock Dictionary of protein secondary structure: pattern recognition of
+  hydrogen-bonded and geometrical features.
+\newblock \emph{Biopolymers}, 22\penalty0 (12):\penalty0 2577--2637, 1983.
+
+\bibitem[Kyte and Doolittle(1982)]{Kyte1982}
+J.~Kyte and R.~F. Doolittle.
+\newblock A simple method for displaying the hydropathic character of a
+  protein.
+\newblock \emph{Journal of Molecular Biology}, 157\penalty0 (1):\penalty0
+  105--132, 1982.
+
+\bibitem[Leslie et~al.(2002)Leslie, Eskin, and Noble]{Leslie2002}
+C.~Leslie, E.~Eskin, and W.~S. Noble.
+\newblock {The spectrum kernel: a string kernel for SVM protein
+  classification.}
+\newblock \emph{Pacific Symposium On Biocomputing}, 575\penalty0 (50):\penalty0
+  564--575, 2002.
+
+\bibitem[Linde et~al.(1980)Linde, Buzo, and Gray]{Linde1980algorithm}
+Y.~Linde, A.~Buzo, and R.~Gray.
+\newblock An algorithm for vector quantizer design.
+\newblock \emph{IEEE Transactions on Communications}, 28\penalty0 (1):\penalty0
+  84--95, 1980.
+\newblock ISSN 00962244.
+
+\bibitem[Murzin et~al.(1995)Murzin, Brenner, Hubbard, Chothia, and
+  Others]{murzin1995scop}
+A.~G. Murzin, S.~E. Brenner, T.~Hubbard, C.~Chothia, and Others.
+\newblock Scop: a structural classification of proteins database for the
+  investigation of sequences and structures.
+\newblock \emph{Journal of molecular biology}, 247\penalty0 (4):\penalty0
+  536--540, 1995.
+
+\bibitem[Peng et~al.(2006)Peng, Radivojac, Vucetic, Dunker, and
+  Obradovic]{Peng2006}
+K.~Peng, P.~Radivojac, S.~Vucetic, A.~K. Dunker, and Z.~Obradovic.
+\newblock Length-dependent prediction of protein intrinsic disorder.
+\newblock \emph{BMC Bioinformatics}, 7\penalty0 (1):\penalty0 208, 2006.
+
+\bibitem[Scho\"{o}lkopf et~al.(2004)Scho\"{o}lkopf, Tsuda, and
+  Vert]{schoolkopf2004kernel}
+B.~Scho\"{o}lkopf, K.~Tsuda, and J.-P. Vert.
+\newblock \emph{{Kernel methods in computational biology}}.
+\newblock The MIT press, 2004.
+
+\bibitem[Smith et~al.(2003)Smith, Radivojac, Obradovic, Dunker, and
+  Zhu]{Smith2003}
+D.~K. Smith, P.~Radivojac, Z.~Obradovic, A.~K. Dunker, and G.~Zhu.
+\newblock Improved amino acid flexibility parameters.
+\newblock \emph{Protein Science}, 12\penalty0 (5):\penalty0 1060--1072, 2003.
+
+\bibitem[Strang(2003)]{strang2003introduction}
+G.~Strang.
+\newblock \emph{Introduction to Linear Algebra}.
+\newblock Wellsley-Cambrige Press, 2003.
+\newblock ISBN 9780961408893.
+
+\bibitem[Tuytelaars and Schmid(2007)]{Tuytelaars2007}
+T.~Tuytelaars and C.~Schmid.
+\newblock {Vector Quantizing Feature Space with a Regular Lattice}.
+\newblock In \emph{2007 IEEE 11th International Conference on Computer Vision},
+  pages 1--8. IEEE, 2007.
+\newblock ISBN 978-1-4244-1630-1.
+
+\bibitem[Vacic et~al.(2010)Vacic, Iakoucheva, Lonardi, and
+  Radivojac]{Vacic2010}
+V.~Vacic, L.~M. Iakoucheva, S.~Lonardi, and P.~Radivojac.
+\newblock {Graphlet kernels for prediction of functional residues in protein
+  structures.}
+\newblock \emph{Journal of computational biology a journal of computational
+  molecular cell biology}, 17\penalty0 (1):\penalty0 55--72, 2010.
+
+\bibitem[Vert(2002)]{Vert2002}
+J.-P. Vert.
+\newblock {A tree kernel to analyse phylogenetic profiles.}
+\newblock \emph{Bioinformatics}, 18\penalty0 (1):\penalty0 S276--S284, 2002.
+
+\bibitem[Xin and Radivojac(2011)]{Xin2011}
+F.~Xin and P.~Radivojac.
+\newblock {Computational methods for identification of functional residues in
+  protein structures}.
+\newblock \emph{Current protein peptide science}, 120\penalty0 (6):\penalty0
+  456--69, 2011.
+
+\end{thebibliography}

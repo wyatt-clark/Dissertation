@@ -1,0 +1,38 @@
+\begin{table*}[h]
+\resizebox{\columnwidth}{!}{
+	\begin{tabular}{|l||rrc|rrc|rrc|rrc||rrc||}
+		\hline
+		\multirow{2}{*}{Property\textbackslash Category} & \multicolumn{3}{c|}{All $\alpha$}& \multicolumn{3}{c|}{All $\beta$}& \multicolumn{3}{c|}{$\alpha/\beta$}& \multicolumn{3}{c||}{$\alpha+\beta$} & \multicolumn{3}{c||}{$AUC^{\bf{w}}$}\\ 
+		\cline{2-16}
+		 & $m$ & $n$ & $AUC$ & $m$ & $n$ & $AUC$ & $m$ & $n$ & $AUC$ & $m$ & $n$ & $AUC$ & $m$ & $n$ & $AUC^{\bf{w}}$\\
+		\hline
+		\hline
+		Alpha & 4,096 & 8 & 0.994& 4,096 & 8 & 0.982& 4,096 & 16 & 0.967 & 4,096 & 32 & 0.829 & 4,096 & 8 & 0.930\\
+		Kappa & 4,096 & 16 & 0.995& 4,096 & 16 & 0.986& 4,096 & 16 & 0.978 & 4,096 & 32 & 0.903 & 4,096 & 32 & 0.961\\
+		Phi & 4,096 & 16 & 0.990& 4,096 & 16 & 0.975& 4,096 & 16 & 0.964 & 4,096 & 32 & 0.809 & 4,096 & 32 & 0.920\\
+		Psi & 4,096 & 8 & 0.991& 4,096 & 16 & 0.981& 4,096 & 16 & 0.970 & 4,096 & 32 & 0.850 & 4,096 & 32 & 0.938\\
+		SolAcc & 4,096 & 8 & 0.960& 4,096 & 8 & 0.951& 4,096 & 32 & 0.914 & 4,096 & 32 & 0.710 & 4,096 & 32 & 0.868\\
+		\hline
+		\hline
+		B-factors & 256 & 8 & 0.790& 256 & 8 & 0.709& 64 & 8 & 0.809 & 16 & 4 & 0.587 & 64 & 4 & 0.717\\
+		Helix & 16 & 4 & 0.868& 16 & 8 & 0.871& 64 & 16 & 0.842 & 64 & 32 & 0.637 & 64 & 32 & 0.788\\
+		Hydrophobicity & 256 & 4 & 0.711& 1,024 & 4 & 0.728& 64 & 2 & 0.834 & 64 & 2 & 0.585 & 256 & 4 & 0.707\\
+		Loop & 256 & 16 & 0.872& 64 & 8 & 0.848& 16 & 32 & 0.821 & 1,024 & 32 & 0.607 & 64 & 16 & 0.771\\
+		PDBDisorder & 1,024 & 8 & 0.842& 64 & 4 & 0.849& 64 & 4 & 0.819 & 256 & 32 & 0.591 & 64 & 4 & 0.764\\
+		Sheet & 64 & 2 & 0.904& 64 & 8 & 0.853& 256 & 16 & 0.836 & 64 & 32 & 0.641 & 64 & 32 & 0.787\\
+		VSL2B & 16 & 2 & 0.699& 64 & 32 & 0.628& 64 & 8 & 0.812 & 64 & 2 & 0.589 & 64 & 8 & 0.682\\
+		\hline
+		\hline
+		String Kernel & -- & 2 & 0.863& -- & 3 & 0.878& -- & 4 & 0.860& -- & 5 & 0.634 & -- & 4 & 0.794\\
+		Sequence  & 64 & 16 & 0.915 & 64 & 16 & 0.876 & 64 & 16 & 0.880 & 64 & 16 & 0.621 & 64 & 16 & 0.813\\
+		Structure & 4,096 & 32 & 0.992 & 4,096 & 32 & 0.983 & 4,096 & 32 & 0.979 & 4,096 & 32 & 0.903 & 4,096 & 32 & 0.961\\
+		Sequence + Structure & -- & -- & 0.989 & -- & -- & 0.967 & -- & -- & 0.970 & -- & -- & 0.851 & -- & -- & 0.939\\
+		Sequence + Structure + SK & -- & -- & 0.989 & -- & -- & 0.967 & -- & -- & 0.970 & -- & -- & 0.851 & -- & -- & 0.939\\
+
+		\hline
+		
+	\end{tabular}
+}
+\caption[Optimal property based feature performance when predicting SCOP fold.]{Optimal performance, according to $AUC$, of each property based feature when predicting SCOP fold.  For each property feature the combination of $m$ and $n$ values that obtained the highest $AUC$ for an individual SCOP fold are reported.  The last three columns show the weighted $AUC$, $AUC^{\bf{w}}$, obtained across all SCOP folds. Results when combining all sequence and property based features are shown in the bottom section of the table.  Because different combinations of $m$ and $n$ are used when combining properties these values are not shown for the Sequence + Structure and Sequence + Structure + SK combination of features.}
+\label{tab:vqscopt}
+\end{table*}
